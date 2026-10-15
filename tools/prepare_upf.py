@@ -122,10 +122,12 @@ def insert(original_data, full, route, original_hash, wave_hash):
         raise ValueError('Original already contains full-wave data')
     complete_pairs(tree,full)
     full=copy.deepcopy(full)
-    full.set('reconstruction_role','compatible_generator_replay' if route==3 else 'auxiliary_reconstruction')
-    full.set('reconstruction_route',str(route))
-    full.set('original_sha256',original_hash)
-    full.set('reference_source_sha256',wave_hash)
+    # Keep PP_FULL_WFC within the attributes accepted by existing UPF readers.
+    # Provenance belongs in XML comments and the catalog, not custom attributes.
+    count = int(tree.find('PP_HEADER').get('number_of_proj'))
+    full.attrib.clear()
+    full.set('number_of_wfc',str(count))
+    ET.indent(full,space='  ')
     spans,end=top_level_spans(original_data)
     a,b=spans['PP_HEADER']
     old=original_data[a:b]
@@ -138,7 +140,8 @@ def insert(original_data, full, route, original_hash, wave_hash):
         pos=match.end()-(2 if match.group().endswith(b'/>') else 1)
         updated=old[:pos]+b' has_wfc="true"'+old[pos:]
     note=b'\n<!-- Inverse reference supplement. Original potential/operator/core sections are unchanged. '
-    note+=b'Compatible generator replay. -->\n' if route==3 else b'Auxiliary reconstruction, not recovered historical original waves. All original-functional residuals are required. -->\n'
+    note+=b'Compatible generator replay. ' if route==3 else b'Auxiliary reconstruction, not recovered historical original waves. All original-functional residuals are required. '
+    note+=('Route '+str(route)+'. Original SHA256 '+original_hash+'. Reference SHA256 '+wave_hash+'. -->\n').encode('ascii')
     data=original_data[:a]+updated+original_data[b:end]+note+ET.tostring(full,encoding='utf-8')+b'\n'+original_data[end:]
     result=ET.fromstring(data)
     compare(tree,result)
@@ -231,7 +234,11 @@ def gbrv_pairs(original_data,export):
         for kind,waves in [('AE',hard),('PS',soft)]:
             node=ET.SubElement(full,f'PP_{kind}WFC.{i+1}',{'type':'real','size':str(len(r)),'columns':'4','index':str(i+1),'l':str(int(angular[i]))})
             node.text='\n'+'\n'.join(' '.join(f'{x:.16e}' for x in waves[j:j+4,i]) for j in range(0,len(r),4))+'\n'
-    info={'projector_alignment_relative':max_error,'projector_alignment':alignment.tolist(),'reference_export_radius':float(rr[-1]),'outer_continuation':'Identical C2 decaying continuation outside the generator export. The original reconstruction difference is unchanged there.','reference_mapping':'Generator pairs transformed with U^-T after qdiag, interpolated onto the original radial mesh, then aligned with the original projector basis.'}
+    same_grid = nr <= len(r) and np.array_equal(r[:nr],rr)
+    same_quadrature = nr <= len(r) and np.array_equal(array(tree.find('PP_MESH/PP_RAB'))[:nr],table[:,1])
+    scale = max(float(np.max(abs(rr))),float(np.max(abs(r[:nr]))))
+    mesh_difference = float(np.max(abs(r[:nr]-rr)))/scale
+    info={'original_reference_mesh_exact':same_grid,'original_reference_quadrature_exact':same_quadrature,'mesh_max_relative_difference':mesh_difference,'projector_alignment_relative':max_error,'projector_alignment':alignment.tolist(),'reference_export_radius':float(rr[-1]),'outer_continuation':'Identical C2 decaying continuation outside the generator export. The original reconstruction difference is unchanged there.','reference_mapping':'Generator pairs transformed with U^-T after qdiag, interpolated onto the original radial mesh, then aligned with the original projector basis.'}
     return full,info
 
 
@@ -242,7 +249,7 @@ def prepare_gbrv(original_data,export):
     # The complete historical operator replay has not been established. A
     # projector fit is not sufficient to classify a historical dataset match.
     data=insert(original_data,full,4,sha256(original_data).hexdigest(),sha256(Path(export).read_bytes()).hexdigest())
-    return data,dict(info,route=4,compatibility_failure='Complete historical operator replay is not established. Original arrays are retained.',reconstruction=check)
+    return data,dict(info,route=4,compatibility_failure='Original radial samples and generator export are not bitwise identical, so reference waves are resampled on the unchanged original mesh. Complete historical operator replay is not established.',reconstruction=check)
 
 
 def main():

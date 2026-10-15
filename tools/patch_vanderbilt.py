@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Export generator reference pairs in the final Vanderbilt projector basis.
 
-The patch changes output only. The original generator and recipes remain
-separate. Original normalized psi/phi pairs are transformed with U^{-T},
+The reference export changes output only. The source copy also increases the
+recommended angular-array dimension and, for PBEsol, sets the two functional
+constants. Original normalized psi/phi pairs are transformed with U^{-T},
 where beta_final=beta_initial U and scpgef stores U^{-1} in ttt.
 """
 # SPDX-License-Identifier: GPL-2.0-or-later

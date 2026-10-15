@@ -44,7 +44,7 @@ def main():
     args = parser.parse_args()
     args.output.mkdir(exist_ok=True, parents=True)
     catalog = json.loads(args.sssp_catalog.read_text())
-    existing = {row['element'] for row in catalog['entries']}
+    existing = {row['element'] for row in catalog['entries'] if row.get('sssp', True)}
     choices = recipes(args.source)
     commit = subprocess.check_output(['git', '-C', str(args.source), 'rev-parse', 'HEAD'], text=True).strip()
     report = {'source_commit': commit, 'generator_sha256': sha256(args.generator.read_bytes()).hexdigest(), 'entries': [], 'completed': False}

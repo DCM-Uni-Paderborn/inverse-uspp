@@ -20,10 +20,10 @@ def main():
     args = parser.parse_args()
     root = args.root
     catalog = json.loads((root / 'catalog.json').read_text())
-    records = [r for r in catalog['entries'] if r['source_library'] == 'GBRV']
+    records = [r for r in catalog['entries'] if r['source_library'] == 'GBRV' and r.get('sssp', True)]
     source = root / 'sources/gbrv-recipes/Work_GBRV'
     output = root / 'work/gbrv'
-    output.mkdir(exist_ok=True)
+    output.mkdir(exist_ok=True, parents=True)
     report = {'completed': False, 'entries': []}
     if args.retry_failed and (output / 'result.json').exists():
         previous = json.loads((output / 'result.json').read_text())['entries']
@@ -66,7 +66,8 @@ def main():
                     if stage == 'ps' and (case / 'reference-waves.dat').exists():
                         record['generator_stopped_after_reference_export'] = True
                         record['generator_exit_status'] = code
-                        record['generator_diagnostic'] = (case / 'ps.out').read_text()[-300:]
+                        lines = (case / 'ps.out').read_text(errors='replace').splitlines()
+                        record['generator_diagnostic'] = next((line.strip() for line in reversed(lines) if 'error:' in line.lower()), lines[-1].strip())
                     else:
                         raise ValueError(stage + ' generator failed with status ' + str(code))
             export = case / 'reference-waves.dat'

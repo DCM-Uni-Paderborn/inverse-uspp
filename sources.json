@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "sssp": {
+    "version": "2.0",
+    "source_revision": "0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9",
+    "archives": [
+      {
+        "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/010-extract-eff-lib/SSSP-lib-pbe-eff-v2.tar.gz",
+        "archive": "SSSP-lib-pbe-eff-v2.tar.gz",
+        "sha256": "67c59659953f32b87ebf1e7e59b5cdd55bcaca02b518532098c339c0d11193c2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/011-extract-prec-lib/SSSP-lib-pbe-prec-v2.tar.gz",
+        "archive": "SSSP-lib-pbe-prec-v2.tar.gz",
+        "sha256": "74b40b9f4df74df4c4c45da12d80bc2284b85284790628c2ae05fa092dad6286"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/010-extract-eff-lib/SSSP-lib-pbesol-eff-v2.tar.gz",
+        "archive": "SSSP-lib-pbesol-eff-v2.tar.gz",
+        "sha256": "276cf7222e07f324aa24046db8fb83f83d7aff50736f19e6960e26c24a61ae7b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/011-extract-prec-lib/SSSP-lib-pbesol-prec-v2.tar.gz",
+        "archive": "SSSP-lib-pbesol-prec-v2.tar.gz",
+        "sha256": "e8ef3382f809be3f5e9ebab7d06e5823e1510048ddd6b369215a9bfa719a4cf9"
+      }
+    ]
+  },
+  "pslibrary": {
+    "url": "https://github.com/dalcorso/pslibrary",
+    "commit": "835dd6477c90fa9d59524914de50901d4be73e36",
+    "additional_recipes": "us_ps_high.job",
+    "license": "GPL-2.0"
+  },
+  "quantum_espresso": {
+    "source_commit": "7d5cebcf1250114756b88c6064ebe82e6f8fd835",
+    "tag": "qe-6.3MaX",
+    "archive": {
+      "url": "https://codeload.github.com/QEF/q-e/tar.gz/7d5cebcf1250114756b88c6064ebe82e6f8fd835",
+      "sha256": "5b23d5eaf024b08ec24d0cd33f4f578c5d4b31ee93fc14c198a1395010abbf5b",
+      "bytes": 86789744
+    },
+    "binary_sha256": "b9a768852eb663b2a94dcb3adeee96cd87bd0e9f70c720a9264b96b82d787ece",
+    "scientific_source_modified": false,
+    "full_reference_export": "lsave_wfc=.true."
+  },
+  "gbrv": {
+    "url": "https://www.physics.rutgers.edu/gbrv/",
+    "recipe_archive": {
+      "url": "https://www.physics.rutgers.edu/gbrv/Work_GBRV_v1.5.tar.gz",
+      "sha256": "602ee2d3aa4fbaa704bfd695c7731939de74b91132a38208cabac7807675e5ef"
+    },
+    "generator_archive": {
+      "url": "https://www.physics.rutgers.edu/~dhv/uspp/uspp-736-0.tgz",
+      "sha256": "3ba55ac3a4381479e112f339d8c0f51978ca06f486bf3262bd31b073dcb2c11c"
+    },
+    "reference_export_patch": "tools/patch_vanderbilt.py",
+    "reference_export_patch_sha256": "db88dcc2c745e1531825ea7de5d294d846b09a485673901db7c8b9f3676bc07c",
+    "generator_binary_sha256": {
+      "pbe": "d541d594c7f3ef66e712909ba0ec2ac171467f225220bd870ec0a6f9a1b6e0ec",
+      "pbesol": "f84707c3e54a5a8f19552ff875884f9f53d204af2af2c085e8e6ad722f80bb24"
+    },
+    "compiler": "GNU Fortran with -O1 -std=legacy -fallow-argument-mismatch",
+    "build_changes": [
+      "Export final-projector reference waves before the original q-eigenvalue diagnostic; retain the diagnostic.",
+      "Increase idim4 from 5 to 6 following upstream GBRV guidance.",
+      "Link tools/date_compat.f90 for the legacy idate external routine."
+    ],
+    "pbesol_changes": {
+      "pbe_f_um": "0.123456790123456790d0",
+      "pbe_f_bet": "0.046d0"
+    },
+    "export_mapping": "After beta_final=beta_initial U, transform initial hard and soft pairs by U^-T. Resample on the unchanged original UPF mesh and align with original projectors by angular block. This remains route 4.",
+    "license": "GNU GPL"
+  },
+  "native_validation": {
+    "implementation": "CP2K USPP-PAW-Integration development library, 2026.2",
+    "library_sha256": "f51b93fa7dbc963de64379a4a5689c5b3f6c9e63cf1d100a8a5de9854f6dddc8",
+    "datasets_passed": 194,
+    "checks": [
+      "atom_read_upf with augmentation enabled",
+      "Complete projector-indexed reference pairs",
+      "Exact equality of original and supplemented mesh, quadrature, local potential, beta, dion, qij, qijl and NLCC fields",
+      "upf_inverse_atomic_init returns success with finite kinetic-energy and metric corrections"
+    ],
+    "scope": "Atomic data/initialization checks only. No all-element SCF, multicenter, force/stress or basis-accuracy qualification."
+  }
+}

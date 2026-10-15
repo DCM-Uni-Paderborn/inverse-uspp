@@ -7,17 +7,18 @@ from hashlib import sha256
 import json
 from pathlib import Path
 import re
-import shutil
-import subprocess
 import xml.etree.ElementTree as ET
 from prepare_upf import prepare_qe, prepare_gbrv
+from upf_data import compare
 
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path,required=True)
     parser.add_argument('--sssp-root',type=Path,required=True)
-    parser.add_argument('--replay-root',type=Path,required=True)
+    parser.add_argument('--replay-manifest',type=Path,required=True)
+    parser.add_argument('--replay-waves',type=Path,required=True,help='Directory containing Element-functional-originalhash10/generated.upf exports')
+    parser.add_argument('--qe-generator',type=Path,required=True)
     args=parser.parse_args()
     root=args.root
     source_catalog=json.loads((root/'catalog.json').read_text())
@@ -25,11 +26,11 @@ def main():
     output.mkdir(exist_ok=True)
     additional=json.loads((root/'work/pslibrary-additional/result.json').read_text())
     gbrv=json.loads((root/'work/gbrv/result.json').read_text())
-    original_replays=json.loads((args.replay_root/'attempt3/result.json').read_text())
+    original_replays=json.loads(args.replay_manifest.read_text())
     by_hash={r['original_sha256']:r for r in original_replays['records']}
     gbrv_by_hash={r['original_sha256']:r for r in gbrv['entries']}
     manifest={'schema_version':1,'status':'preparing','scope':'Original scalar USPP operators with compatible replay or explicitly auxiliary reference waves. Atomic reconstruction checks are not complete system/SCF/property qualification.','entries':[]}
-    generator=Path('/home/kuehne88/work/uspp-inverse-data/qe-6.3MaX/atomic/src/ld1.x')
+    generator=args.qe_generator
     qe_hash=sha256(generator.read_bytes()).hexdigest()
 
     def save():
@@ -45,6 +46,7 @@ def main():
         digest=sha256(raw).hexdigest()
         record=dict(row)
         record['original_sha256']=digest
+        record['cp2k_native_data_check_passed']=False
         try:
             tree=ET.fromstring(raw)
             header=tree.find('PP_HEADER')
@@ -79,7 +81,8 @@ def main():
                 if source_record.get('generator_stopped_after_reference_export'):
                     record['generator_stopped_after_reference_export']=True
                     record['generator_exit_status']=source_record['generator_exit_status']
-                    record['generator_diagnostic']=source_record['generator_diagnostic'].strip()
+                    lines=source_record['generator_diagnostic'].splitlines()
+                    record['generator_diagnostic']=next((line.strip() for line in reversed(lines) if 'error:' in line.lower()),lines[-1].strip())
             if record['sssp']:
                 filename=original.name
                 group='sssp'
@@ -93,7 +96,9 @@ def main():
             relative=Path('data')/functional/group/filename
             target=output/relative
             target.parent.mkdir(parents=True,exist_ok=True)
-            if target.exists() and target.read_bytes()!=result:raise ValueError('Output filename collision')
+            if target.exists() and target.read_bytes()!=result:
+                # Rebuild only a derived file whose original operators still match.
+                compare(tree,ET.fromstring(target.read_bytes()))
             target.write_bytes(result)
             core=tree.find('PP_NLCC')
             core_nonzero=core is not None and any(float(v.replace('D','E').replace('d','e'))!=0 for v in (core.text or '').split())
@@ -107,12 +112,13 @@ def main():
         print(record['element'],record.get('functional'),record['status'],record.get('route'),record.get('failure',''),flush=True)
 
     for old in source_catalog['entries']:
+        if not old.get('sssp',True):continue
         row=dict(old,sssp=True)
         original=args.sssp_root/row['original_path']
         if sha256(original.read_bytes()).hexdigest()!=row['original_sha256']:raise ValueError('Original dataset hash changed')
         if row['source_library']=='PSLibrary':
             source=by_hash[row['original_sha256']]
-            directory=args.replay_root/'attempt2'/(row['element']+'-'+('pbesol' if '.pbesol.' in original.name else 'pbe')+'-'+row['original_sha256'][:10])
+            directory=args.replay_waves/(row['element']+'-'+('pbesol' if '.pbesol.' in original.name else 'pbe')+'-'+row['original_sha256'][:10])
             generated=directory/'generated.upf'
             if sha256(generated.read_bytes()).hexdigest()!=source['generated_sha256']:raise ValueError('Reference export hash changed')
             prepare(row,original,generated,'qe',source)
