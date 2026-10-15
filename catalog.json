@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "status": "preparing",
+  "source": "SSSP v2.0 PBE/PBEsol Efficiency/Precision",
+  "entries": [
+    {
+      "element": "Ac",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Ac.us.pbe.z_11.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "c5b5399b2e84313f16c1196504101b4d6ed341a346df193ea1a987be439edff2",
+      "z_valence": 11.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Al",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Al.us.pbe.z_3.ld1.psl.v1.0.0-low.upf",
+      "original_sha256": "90fd398d980474ad62bd08227ea4cb2d2b6f3041c8cba4e591acd2231dac9889",
+      "z_valence": 3.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Am",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Am.us.pbe.z_17.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "e65f1b236452b4e5ee9e0b6ea4958c240798d87fc5c8f0178bfacd51ddd844eb",
+      "z_valence": 17.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Au",
+      "original_path": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/Au.us.pbe.z_11.uspp.gbrv.v1.upf",
+      "original_sha256": "0d6a4f3ebb93c4f46ce0296bf79dc983306bcff28f9dc586af19fb83554d3253",
+      "z_valence": 11.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Be",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Be.us.pbe.z_2.ld1.psl.v1.0.0-low.n.upf",
+      "original_sha256": "bf4b97c1beb0fca3fa6195514c0e4129be613a3a0315dc8605a26d2483cacdef",
+      "z_valence": 2.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Bi",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Bi.us.pbe.z_15.uspp.gbrv.v1.upf",
+      "original_sha256": "00d0232290caf659b35bd1d41f1bd97f4fcd52c770345815c1e3cfaaf234f300",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "C",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/C.us.pbe.z_4.uspp.gbrv.v1.2.upf",
+      "original_sha256": "1795e3fa54d4c3ccf06592136dfebf7aaede82ed223863c30d55ceefb6a787ce",
+      "z_valence": 4.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Ca",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Ca.us.pbe.z_10.uspp.gbrv.v1.upf",
+      "original_sha256": "a5a0fe4eeaa9c1da70bc0605d3150d7402638b05091a6684e50dcb9b692c2317",
+      "z_valence": 10.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Cl",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Cl.us.pbe.z_7.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "f15bedc1bb744d3f68f2378721f630274faff023780cd27f109531b40d5e41f2",
+      "z_valence": 7.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Cr",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Cr.us.pbe.z_14.uspp.gbrv.v1.5.upf",
+      "original_sha256": "8383bb235dbb8ebc1e0216ba1c3d6ab379fc364f7c7cf17e75c690ca386a10e0",
+      "z_valence": 14.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Cs",
+      "original_path": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/Cs.us.pbe.z_9.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "945480ccbcfe73d7eb915c1dfce93425a4b7aacc790322c38a20cf678f8d8bef",
+      "z_valence": 9.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "F",
+      "original_path": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/F.us.pbe.z_7.uspp.gbrv.v1.4.upf",
+      "original_sha256": "3e45d1224a0e3d5735d41c64975295a7303da3364068dd56a3cd5643de99be8b",
+      "z_valence": 7.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Ge",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Ge.us.pbe.z_14.uspp.gbrv.v1.4.upf",
+      "original_sha256": "cdaf20369369ba01a9c6f13c45b108dbb76049660e86e03f80a73a0113f0df5c",
+      "z_valence": 14.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "H",
+      "original_path": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/H.us.pbe.z_1.uspp.gbrv.v1.4.upf",
+      "original_sha256": "f4e1cad6afe24cfaa879aed5d8f4ce716102b626a4e3a622a303419624960036",
+      "z_valence": 1.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Hg",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Hg.us.pbe.z_12.uspp.gbrv.v1.upf",
+      "original_sha256": "ecc5ed1a05ff54f05b2816f98751f410b2ad406af5d7ff2e24569d36fd96e6b9",
+      "z_valence": 12.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "I",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/I.us.pbe.z_7.uspp.gbrv.v1.upf",
+      "original_sha256": "4f378ce6b9ff9908cd264e1747fba3b930cf1dae3c64f7f05a48fd8ae65a1cb8",
+      "z_valence": 7.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "In",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/In.us.pbe.z_13.ld1.psl.v0.2.2.upf",
+      "original_sha256": "56c811db0ccd3fae2151e109571e930d6c1f178e90472f173e055b7d96f5eccf",
+      "z_valence": 13.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Li",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Li.us.pbe.z_3.uspp.gbrv.v1.4.upf",
+      "original_sha256": "4c82ee1857775d92d24cec37a011a0f9e070b44373ea31857cbecf38cd111205",
+      "z_valence": 3.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Mg",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Mg.us.pbe.z_10.uspp.gbrv.v1.4.upf",
+      "original_sha256": "c3bb76cea8e17542ce7114bafc5ae94cb0ccdc81a8673025a12a9f443c606b4b",
+      "z_valence": 10.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Mn",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Mn.us.pbe.z_15.uspp.gbrv.v1.5.upf",
+      "original_sha256": "b05c85c4450713ab597f9f4265a8cd301b4cee48d41a94c2d4ceeab7158ea755",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "N",
+      "original_path": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/N.us.pbe.z_5.uspp.gbrv.v1.2.upf",
+      "original_sha256": "775bbb2a97a2037538c16d542f1f9666a1a061c7b5fbb2b9cd61a1ebaeb4d78c",
+      "z_valence": 5.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Np",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Np.us.pbe.z_15.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "c90e5e3e7c2f00a094dc111626987fca06f0aa4f578afc55eb2b008502c6df98",
+      "z_valence": 15.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Os",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Os.us.pbe.z_16.uspp.gbrv.v1.2.upf",
+      "original_sha256": "80f0b79f9fa6510507c7fa9c806e6a76a79d45d2b07715049944e59893e7f4af",
+      "z_valence": 16.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "P",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/P.us.pbe.z_5.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "4b092e486461dc7e2111c278003ac4ec24c1b62bff2dd406784e8d3f6215a969",
+      "z_valence": 5.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Pt",
+      "original_path": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/Pt.us.pbe.z_16.uspp.gbrv.v1.4.upf",
+      "original_sha256": "849e7599af7aaff76b81fdf45971b4885cb09a34999e5712b740529a9ca38d65",
+      "z_valence": 16.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Pu",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Pu.us.pbe.z_16.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "8a267604280c111e937fe005821db46a63cd09f510908acbea81330ecfc2cdfe",
+      "z_valence": 16.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Rb",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Rb.us.pbe.z_9.uspp.gbrv.v1.upf",
+      "original_sha256": "d220c94df3d7010543e55006aa404a63d00a1c9b358d8a70bc93e0504af3cd28",
+      "z_valence": 9.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Re",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Re.us.pbe.z_15.uspp.gbrv.v1.2.upf",
+      "original_sha256": "d890471e96446a74ed39b56283cc283845dd5c7549668f6b0cb51407b5385b96",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Sc",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Sc.us.pbe.z_11.uspp.gbrv.v1.upf",
+      "original_sha256": "1aa2cabe3d0995e21c528deaf02682f26ee845fc39e05f5f2812c4115f421eb0",
+      "z_valence": 11.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Se",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Se.us.pbe.z_6.uspp.gbrv.v1.upf",
+      "original_sha256": "f0b1caacb178bbbca48de7d2d7839064c60adf96005357fb36db7f55ce76cedb",
+      "z_valence": 6.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Si",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Si.us.pbe.z_4.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "29ee7880cd7ca2cf9d542c06f356537bf0e0d7933458c972f56fc54068ab4e7a",
+      "z_valence": 4.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Sm",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Sm.us.pbe.z_26.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "d6f0afec6e7ea5ce8a67912938ad2425cf4e9896971b8ff7e3bf66359f420fc0",
+      "z_valence": 26.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Sr",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Sr.us.pbe.z_10.uspp.gbrv.v1.upf",
+      "original_sha256": "ae93bf4a760b63f4aad31a55d0ac6a01a9e4849b03f1dd8550a4567d6613d408",
+      "z_valence": 10.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Tc",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Tc.us.pbe.z_15.uspp.gbrv.v1.upf",
+      "original_sha256": "10c99a53bb9d33ba3b887303f6c7bbf96594969efdb8100c4186aba6d9a0dc34",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Te",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Te.us.pbe.z_6.ld1.psl.v1.0.0-low.upf",
+      "original_sha256": "66e19d27182ab8f64e558f3d998fa3da3ca161ff830dcfeeac2cbe9cbd6b2f7c",
+      "z_valence": 6.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Th",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Th.us.pbe.z_12.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "2aa13243d2bc022ad0753827d395614d39a8dc06f680db8ef4005582a6e2b9a1",
+      "z_valence": 12.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Ti",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Ti.us.pbe.z_12.uspp.gbrv.v1.4.upf",
+      "original_sha256": "c40b2acb6b41d6e0b8328e428365b3f7f24da01f9ea67cbd1af79c787c432f96",
+      "z_valence": 12.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "V",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/V.us.pbe.z_13.uspp.gbrv.v1.4.upf",
+      "original_sha256": "b32e334d92d59633a03e8a742a2fd6bb04020a643633efd68393d9d1f93c4628",
+      "z_valence": 13.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Y",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Y.us.pbe.z_11.uspp.gbrv.v1.4.upf",
+      "original_sha256": "aded826b299637bb01916228d8dd1ff17923a0ee9692a48ba1646e91197c818c",
+      "z_valence": 11.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Zr",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Zr.us.pbe.z_12.uspp.gbrv.v1.upf",
+      "original_sha256": "7ad2b419bb3bd313d926a5ff2b7bff33655bc621eab9c67f820c821458551eda",
+      "z_valence": 12.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "At",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/At.us.pbe.z_17.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "7c5e13cdb4f4abe012c5b8488e11882110e569728feaff6c85b45a36eda03032",
+      "z_valence": 17.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "F",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/F.us.pbe.z_7.ld1.psl.v0.1.upf",
+      "original_sha256": "4c7db900c52a5f5b5603a395e8ad186b4c94e5f744b4a57b397fc6e840ba73b4",
+      "z_valence": 7.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "H",
+      "original_path": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/H.us.pbe.z_1.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "4bfc6c7f5321b7d6a75c55a59abdfc82c779744ef376e9103ca2258456eb44e1",
+      "z_valence": 1.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Ac",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Ac.us.pbesol.z_11.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "f897623e65e7520bcbb48996dbe1758cfeddc324ef9b2118174f1a7c5694a9ce",
+      "z_valence": 11.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Al",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Al.us.pbesol.z_3.ld1.psl.v1.0.0-low.upf",
+      "original_sha256": "9a6b34e66490a67fc4b66a75c92ea3485147adc51f953fd6c65fcb05a9685024",
+      "z_valence": 3.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Am",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Am.us.pbesol.z_17.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "ed83962782d2f0ab59ac66009b51c907693d1f253d83a8c6b085a931b99f8196",
+      "z_valence": 17.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Au",
+      "original_path": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/Au.us.pbesol.z_11.uspp.gbrv.v1.upf",
+      "original_sha256": "2399e4e344d9793c25d22f04e6bb8e409cd107b4c49b6ec69dcfc241f611bfe4",
+      "z_valence": 11.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Be",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Be.us.pbesol.z_2.ld1.psl.v1.0.0-low.n.upf",
+      "original_sha256": "753af2f741f358b5daec1b6a1a2d3ade1d03902d777a3cf54a67c6d2ec9c8a07",
+      "z_valence": 2.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Bi",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Bi.us.pbesol.z_15.uspp.gbrv.v1.upf",
+      "original_sha256": "46d45238bf18a43cbf3d665b3dea71d4e10806f77808705b8382e69a6178ddb0",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "C",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/C.us.pbesol.z_4.uspp.gbrv.v1.2.upf",
+      "original_sha256": "0f05333389708454cac22c994e410ab3c3a352f59f0a156d2f421389ea1b2335",
+      "z_valence": 4.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Ca",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Ca.us.pbesol.z_10.uspp.gbrv.v1.upf",
+      "original_sha256": "3a89ba86f48ee684bf0a18036ecd2454b7bf7101a3897758ff635bc0562f2fde",
+      "z_valence": 10.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Cl",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Cl.us.pbesol.z_7.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "9902195f5c05c3756fa1193f0ab15a395295d5632cf1aee988257cda41bf071b",
+      "z_valence": 7.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Cr",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Cr.us.pbesol.z_14.uspp.gbrv.v1.5.upf",
+      "original_sha256": "0783d026f8de9803bcfd413a2db7a4075070d8624f0c18976c063ecea8ab5c52",
+      "z_valence": 14.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Cs",
+      "original_path": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/Cs.us.pbesol.z_9.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "256991aa3e215b0410765b59df23b3900901541c7659303e56b3d0aa3ea9b8a4",
+      "z_valence": 9.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "F",
+      "original_path": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/F.us.pbesol.z_7.uspp.gbrv.v1.4.upf",
+      "original_sha256": "04a6d137da8b4723b92c8070dd20f60df1a6e8e9cf6db11f51e93bbd6c1ec4b2",
+      "z_valence": 7.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Ge",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Ge.us.pbesol.z_14.uspp.gbrv.v1.4.upf",
+      "original_sha256": "cd51042c42cfb6b24723f2d9e34dd28ed01e88ab5f11465c4bbeb57bdd394263",
+      "z_valence": 14.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "H",
+      "original_path": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/H.us.pbesol.z_1.uspp.gbrv.v1.4.upf",
+      "original_sha256": "38a0897c7833aeee6f075530091ca3effd0851efd7516e908c7da9aa8a04f867",
+      "z_valence": 1.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Hg",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Hg.us.pbesol.z_12.uspp.gbrv.v1.upf",
+      "original_sha256": "03c236cd49454faa1057e39ebdeb459c6e388753a9afb3eee366104afd57df19",
+      "z_valence": 12.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "I",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/I.us.pbesol.z_7.uspp.gbrv.v1.upf",
+      "original_sha256": "7fa5fd53cfab4cd5be78eea328121da52b49931227e08ab5ae68b7fd38eef128",
+      "z_valence": 7.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "In",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/In.us.pbesol.z_13.ld1.psl.v0.2.2.upf",
+      "original_sha256": "bd9696dd5206efb8428a719b051d00ab508a9cc6a5e57513e3fb4074c9af3633",
+      "z_valence": 13.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Li",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Li.us.pbesol.z_3.uspp.gbrv.v1.4.upf",
+      "original_sha256": "9b03c0ae11a3f620a068ddb11b7c2d394407d40d6a5d694d31a60465371d5743",
+      "z_valence": 3.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Mg",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Mg.us.pbesol.z_10.uspp.gbrv.v1.4.upf",
+      "original_sha256": "f1c4ac945c1cdabdd895e96bc20b9d79e62a8a2d97a61b0d59f4e6c125a939f0",
+      "z_valence": 10.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Mn",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Mn.us.pbesol.z_15.uspp.gbrv.v1.5.upf",
+      "original_sha256": "2587b6260e858b80f7b7340e752fa7ed24d347d5a4f704cdc2fca0c2b896b0d1",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "N",
+      "original_path": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/N.us.pbesol.z_5.uspp.gbrv.v1.2.upf",
+      "original_sha256": "9cdd50de373b83bcaad69ab112f06659f28c7f1b4e4dac446ed84069b194bf32",
+      "z_valence": 5.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Np",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Np.us.pbesol.z_15.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "3aa7a89d99307a716d41b07142fe8bdf7dd527958427cabc595617dfe90968d0",
+      "z_valence": 15.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Os",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Os.us.pbesol.z_16.uspp.gbrv.v1.2.upf",
+      "original_sha256": "91b29cc20e8041dcafd6dbefe4bb27c20c9a3f4c920890c570fe15a26ca10eb1",
+      "z_valence": 16.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "P",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/P.us.pbesol.z_5.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "cadc43c005cf763a938c1d727e9a1be03172150eaeb6a28827ed4ff689e0fae7",
+      "z_valence": 5.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Pt",
+      "original_path": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/Pt.us.pbesol.z_16.uspp.gbrv.v1.4.upf",
+      "original_sha256": "e924c16fcd7fb1691f25ba0324522e6799b4ec97c5719697679b66598d316cea",
+      "z_valence": 16.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Pu",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Pu.us.pbesol.z_16.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "f4c746516d29f4e6ee7219523180d4d96aa80b9c323ec5959d54bca67397c0e4",
+      "z_valence": 16.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Rb",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Rb.us.pbesol.z_9.uspp.gbrv.v1.upf",
+      "original_sha256": "f044ce5eeaf929455063aac84df72cdf5b06137e3e83a1c1014db66d269162e4",
+      "z_valence": 9.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Re",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Re.us.pbesol.z_15.uspp.gbrv.v1.2.upf",
+      "original_sha256": "614003ac4c335de1066cead6480498826e07e10979abefd95338c2f1a2a9c836",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Sc",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Sc.us.pbesol.z_11.uspp.gbrv.v1.upf",
+      "original_sha256": "ba325a3eee3f80c49631afd2c46519dfa032c9bc9a22d11ec40a94e5df956a3f",
+      "z_valence": 11.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Se",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Se.us.pbesol.z_6.uspp.gbrv.v1.upf",
+      "original_sha256": "1acd9fb17d527976b6d274aabe40b56e72ae00b946c32c5b4b6b4994cb2e63a0",
+      "z_valence": 6.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Si",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Si.us.pbesol.z_4.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "ec427b097111c45376fd5041c38e07936a780f55fe35b0179c0a057a06157b74",
+      "z_valence": 4.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Sm",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Sm.us.pbesol.z_26.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "508dffec901b5c3585eb9b7a5eeb5ef101474fb18794fcb0c7e9cace98be1f4e",
+      "z_valence": 26.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Sr",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Sr.us.pbesol.z_10.uspp.gbrv.v1.upf",
+      "original_sha256": "f25b2750046876d521c54789984542b63110ecd55cc17533cfc45c67af9a2b29",
+      "z_valence": 10.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Tc",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Tc.us.pbesol.z_15.uspp.gbrv.v1.upf",
+      "original_sha256": "850a6df19e07c693d1a34a99ed68c6d469e1621099dd00b60dd93abb8e866ed5",
+      "z_valence": 15.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Te",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Te.us.pbesol.z_6.ld1.psl.v1.0.0-low.upf",
+      "original_sha256": "4bb30794390357794b8c6bc0f2a1d06600a1015b4bb05f70c0947f6243f281f6",
+      "z_valence": 6.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Th",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Th.us.pbesol.z_12.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "f44767f703f27f2f839b8984e3f62a21dd4c9e0cd674082f27c97858e11a4a47",
+      "z_valence": 12.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "Ti",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Ti.us.pbesol.z_12.uspp.gbrv.v1.4.upf",
+      "original_sha256": "819f7cfb573ef5c58b76471518b11f3af712dde39a5c781929de678c468aa215",
+      "z_valence": 12.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "V",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/V.us.pbesol.z_13.uspp.gbrv.v1.4.upf",
+      "original_sha256": "d873546f5c84395562fa057f77fc4af7e8cc08b51254fcbc786e34a47f18adec",
+      "z_valence": 13.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Y",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Y.us.pbesol.z_11.uspp.gbrv.v1.4.upf",
+      "original_sha256": "b3ddf0ab90cbcc6573ea822e5531bb5a47a3949c4cc5212fdcbac3b4b7d63a72",
+      "z_valence": 11.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "Zr",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Zr.us.pbesol.z_12.uspp.gbrv.v1.upf",
+      "original_sha256": "7a9f256d51de26fce4c92a75523f12fdb4d4d9fba0541593f760c94878fc330f",
+      "z_valence": 12.0,
+      "source_library": "GBRV",
+      "status": "pending"
+    },
+    {
+      "element": "At",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/At.us.pbesol.z_17.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "8222a2c7025515f1a795cb318cb8cd36fc27b6c2569945fd280479dda4376ae0",
+      "z_valence": 17.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "F",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/F.us.pbesol.z_7.ld1.psl.v0.1.upf",
+      "original_sha256": "6edcd2ae6de1d2ee9ca60a36def2c8ce142639847e73de0bb0101f7a67721dda",
+      "z_valence": 7.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    },
+    {
+      "element": "H",
+      "original_path": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/H.us.pbesol.z_1.ld1.psl.v1.0.0-high.upf",
+      "original_sha256": "33a160415897211962350a6dd70184c835a12160ed042daa4eadd57b12251755",
+      "z_valence": 1.0,
+      "source_library": "PSLibrary",
+      "status": "pending"
+    }
+  ]
+}
