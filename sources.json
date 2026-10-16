@@ -31,7 +31,26 @@
     "commit": "835dd6477c90fa9d59524914de50901d4be73e36",
     "additional_recipes": "us_ps_high.job",
     "license": "GPL-2.0",
-    "included_scope": "108 PBE/PBEsol high-precision potentials for the 54 elements absent from the SSSP USPP selection, not all PSLibrary variants or functionals."
+    "included_scope": "108 PBE/PBEsol high-precision potentials for the 54 elements absent from the SSSP USPP selection, plus 471 scalar high-precision PZ-LDA, PW91, BP, revPBE and WC potentials. Other core partitions and fully relativistic variants are not included.",
+    "additional_functionals": [
+      "pz",
+      "pw91",
+      "bp",
+      "revpbe",
+      "wc"
+    ],
+    "functional_directory_aliases": {
+      "pz": "lda"
+    },
+    "additional_counts": {
+      "pbe": 54,
+      "pbesol": 54,
+      "bp": 93,
+      "lda": 95,
+      "pw91": 94,
+      "revpbe": 94,
+      "wc": 95
+    }
   },
   "quantum_espresso": {
     "source_commit": "7d5cebcf1250114756b88c6064ebe82e6f8fd835",
@@ -128,7 +147,7 @@
   },
   "native_validation": {
     "implementation": "CP2K USPP-PAW-Integration development library, 2026.2",
-    "datasets_passed": 389,
+    "datasets_passed": 860,
     "checks": [
       "atom_read_upf with augmentation enabled",
       "Complete projector-indexed reference pairs",
@@ -146,6 +165,11 @@
         "datasets": 195,
         "library_sha256": "2148378819bfdd9a92a2ce5c8f35f93e85d28e86f3cc062c26f723ee5461a82d",
         "scope": "Complete GBRV collection through the normal reader, exact preservation of converted operators, complete reference pairs, valence electron count and native atomic inverse initialization."
+      },
+      {
+        "datasets": 471,
+        "library_sha256": "deee7f01c856ee8840bd3a32b9b37c755b081ba4a2aa2e609e8a5aa34e8f5854",
+        "scope": "Additional scalar PSLibrary functionals through the normal reader, exact original operator/core fields, complete reference pairs, valence count and finite native atomic inverse initialization."
       }
     ],
     "reader_requirements": "Closed [Ne]3s2 and [Ar]3d10 4s2 core configurations for GBRV Ga q19, Pd q16 and Rh q15.",

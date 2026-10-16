@@ -83,6 +83,8 @@ def main():
                     header = tree.find('PP_HEADER')
                     if header is None or header.get('element', '').strip() != element:
                         raise ValueError('Wrong generated element')
+                    if not float(header.get('z_valence', '0')) > 0:
+                        raise ValueError('Nonpositive generated valence charge')
                     if stage == 'waves' and tree.find('PP_FULL_WFC') is None:
                         raise ValueError('No full reference waves')
                 except (ValueError, subprocess.TimeoutExpired, ET.ParseError) as exc:

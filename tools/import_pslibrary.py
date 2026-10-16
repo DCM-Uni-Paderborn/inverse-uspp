@@ -22,7 +22,7 @@ def main():
                         help='Completed generate_pslibrary.py result.json')
     parser.add_argument('--collection', type=Path, required=True)
     parser.add_argument('--skip-failed', action='store_true',
-                        help='Record unavailable generator cases without publishing a UPF')
+                        help='Skip failed generator cases without publishing a UPF')
     args = parser.parse_args()
     generation = json.loads(args.manifest.read_text())
     if not generation['completed']:
@@ -47,6 +47,8 @@ def main():
         if (element, functional) != (source['element'], source['functional']):
             raise ValueError('Generated element/functional differs from requested recipe')
         q = float(header.get('z_valence'))
+        if not q > 0:
+            raise ValueError('Nonpositive generated valence charge')
         data, details = prepare_qe(raw, reference.read_bytes())
         variant = 'high' if source['recipe_job'] == 'us_ps_high.job' else 'low'
         filename = f'{element}.us.{functional}.z_{q:g}.ld1.psl.v1.0.0-{variant}.upf'
@@ -87,17 +89,6 @@ def main():
         routes=dict(Counter(str(r['route']) for r in existing.values())),
         upf_bytes=sum(r['bytes'] for r in existing.values()))
     catalog['status'] = 'prepared_pending_native_checks'
-    unavailable = {(r['element'], r['functional']): r
-                   for r in catalog.get('pslibrary_unavailable', [])}
-    for source in generation['entries']:
-        key = (source['element'], source['functional'])
-        if source['status'] == 'generated':
-            unavailable.pop(key, None)
-        else:
-            unavailable[key] = {k: source[k] for k in (
-                'element', 'functional', 'source_functional', 'recipe_job',
-                'recipe_name', 'recipe_sha256', 'failure')}
-    catalog['pslibrary_unavailable'] = list(unavailable.values())
     (args.collection / 'catalog.json').write_text(json.dumps(catalog, indent=2) + '\n')
     print(json.dumps(catalog['summary']), flush=True)
 
