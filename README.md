@@ -22,8 +22,8 @@ PSLibrary calls its LDA source directory `pz` and uses Perdew–Zunger correlati
 
 ## How the reference waves are obtained
 
-- **Compatible generator replay**, recorded as route 3. We rerun the atomic pseudopotential generator with full reference-wave output enabled. The regenerated potential must reproduce the original tables within the recorded table-scaled tolerance of `1e-6`, with exactly the same radial mesh and quadrature. The resulting AE/pseudo reference pairs supplement that original potential.
-- **Auxiliary reconstruction**, recorded as route 4. Complete exported reference pairs define an invertible reconstruction operator `T`, even when a compatible replay of the historical potential has not been established. We retain the original potential and evaluate its functional with the back-transformed soft orbitals. The reference waves define the change of orbital variables. They do not replace the original potential or claim to reproduce its historical AE reference waves.
+- **Compatible generator replay** We rerun the atomic pseudopotential generator with full reference-wave output enabled. The regenerated potential must reproduce the original tables within the recorded table-scaled tolerance of `1e-6`, with exactly the same radial mesh and quadrature. The resulting AE/pseudo reference pairs supplement that original potential.
+- **Auxiliary reconstruction** Complete exported reference pairs define an invertible reconstruction operator `T`, even when a compatible replay of the historical potential has not been established. We retain the original potential and evaluate its functional with the back-transformed soft orbitals. The reference waves define the change of orbital variables. They do not replace the original potential or claim to reproduce its historical AE reference waves.
 
 The numbers are catalog identifiers. They do not indicate accuracy levels. The collection contains 589 compatible replays and 271 auxiliary reconstructions. The latter include all 195 upstream GBRV files.
 
