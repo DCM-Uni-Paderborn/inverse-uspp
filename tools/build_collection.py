@@ -88,7 +88,7 @@ def main():
                 group='sssp'
             else:
                 filename=f'{element}.us.{functional}.z_{q:g}.ld1.psl.v1.0.0-high.upf'
-                group='additional'
+                group='additional/pslibrary'
                 record['recipe_job']=source_record['recipe_job']
                 record['recipe_name']=source_record['recipe_name']
                 record['recipe_sha256']=source_record['recipe_sha256']

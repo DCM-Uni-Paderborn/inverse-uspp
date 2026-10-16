@@ -30,7 +30,8 @@
     "url": "https://github.com/dalcorso/pslibrary",
     "commit": "835dd6477c90fa9d59524914de50901d4be73e36",
     "additional_recipes": "us_ps_high.job",
-    "license": "GPL-2.0"
+    "license": "GPL-2.0",
+    "included_scope": "108 PBE/PBEsol high-precision potentials for the 54 elements absent from the SSSP USPP selection, not all PSLibrary variants or functionals."
   },
   "quantum_espresso": {
     "source_commit": "7d5cebcf1250114756b88c6064ebe82e6f8fd835",
@@ -71,18 +72,83 @@
       "pbe_f_bet": "0.046d0"
     },
     "export_mapping": "After beta_final=beta_initial U, transform initial hard and soft pairs by U^-T. Resample on the unchanged original UPF mesh and align with original projectors by angular block. This remains route 4.",
-    "license": "GNU GPL"
+    "license": "GNU GPL",
+    "libraries": {
+      "version": "1.5",
+      "archives": [
+        {
+          "functional": "pbe",
+          "url": "https://www.physics.rutgers.edu/gbrv/all_pbe_UPF_v1.5.tar.gz",
+          "sha256": "4ebfeaa4c9d916c1ac2da6e89ec888fdffce096714f1956db01fea5ec9c9e4f0"
+        },
+        {
+          "functional": "pbesol",
+          "url": "https://www.physics.rutgers.edu/gbrv/all_pbesol_UPF_v1.5.tar.gz",
+          "sha256": "9254d3a9796f9506a5de835ec1823085b1f5893db1188a5ac0360ffd30b3c37d"
+        },
+        {
+          "functional": "lda",
+          "url": "https://www.physics.rutgers.edu/gbrv/all_lda_UPF_v1.5.tar.gz",
+          "sha256": "327b0ab395660bd6fa11f1d1004be12abdd0fc5077c709cb26d21634ef7ed0db"
+        }
+      ],
+      "counts": {
+        "lda": 65,
+        "pbe": 65,
+        "pbesol": 65
+      }
+    },
+    "individual_files": [
+      {
+        "url": "https://www.physics.rutgers.edu/gbrv/bi_lda_v1.uspp.F.UPF",
+        "sha256": "0517346438f71e9f0ab8cc51af7568b5d2743c17f899d84fc195a0f7dd657db9"
+      },
+      {
+        "url": "https://www.physics.rutgers.edu/gbrv/bi_pbesol_v1.uspp.F.UPF",
+        "sha256": "729ddbbc3a461329c3d46ae377edc71ea6ac4178a90c471b16f7d10d082ef4e2"
+      }
+    ],
+    "sodium_v1_5_recipe": {
+      "url": "https://www.physics.rutgers.edu/gbrv/011-Na/na_pbe_v1.5/",
+      "files": {
+        "Makefile": "06f0ace04713e54dddacce6966c18c3f05e59be0ba3d67a6bf9929a4d21e73ee",
+        "Na_ae_ref.adat": "f172622ab0bcf13d765171aaa50455ce6a55acaa4abc94a14886b6b9a9738dc6",
+        "Na_ps.adat": "2330f49880eb0817634cda86da3859d2dc2a127ed08544ba42c7e032d9e74ce4"
+      }
+    },
+    "lda_reference_input": "Use the PBE source recipe with exfact=0 in the AE input, selecting Ceperley-Alder/Perdew-Zunger. Preserve the original LDA potential.",
+    "format_conversion": {
+      "source": "tools/convert_gbrv.f90",
+      "source_sha256": "950d7b2410efc87aeec043e1d7416b21a9a0746f8d7a4b7f1bc7c5af1b6bf135",
+      "binary_sha256": "a60e42b331957fa7272fcedddb9392aeb9e296b428e0227cc11ce6b276261107",
+      "quantum_espresso": "6.3MaX read_upf_v1, set_pseudo_upf and write_upf",
+      "scope": "Expand the original inner augmentation polynomials to angular-resolved QIJL tables on the original radial grid. Retain original PP_INFO author information. Supplementation leaves every converted operator section byte for byte unchanged.",
+      "maximum_table_scaled_roundoff": 5.289841700263987e-16
+    }
   },
   "native_validation": {
     "implementation": "CP2K USPP-PAW-Integration development library, 2026.2",
-    "library_sha256": "f51b93fa7dbc963de64379a4a5689c5b3f6c9e63cf1d100a8a5de9854f6dddc8",
-    "datasets_passed": 194,
+    "datasets_passed": 389,
     "checks": [
       "atom_read_upf with augmentation enabled",
       "Complete projector-indexed reference pairs",
       "Exact equality of original and supplemented mesh, quadrature, local potential, beta, dion, qij, qijl and NLCC fields",
       "upf_inverse_atomic_init returns success with finite kinetic-energy and metric corrections"
     ],
-    "scope": "Atomic data/initialization checks only. No all-element SCF, multicenter, force/stress or basis-accuracy qualification."
+    "scope": "Atomic data/initialization checks only. No all-element SCF, multicenter, force/stress or basis-accuracy qualification.",
+    "qualification_batches": [
+      {
+        "datasets": 194,
+        "library_sha256": "f51b93fa7dbc963de64379a4a5689c5b3f6c9e63cf1d100a8a5de9854f6dddc8",
+        "scope": "Previously qualified files retained byte for byte, with additional PSLibrary files relocated by source."
+      },
+      {
+        "datasets": 195,
+        "library_sha256": "2148378819bfdd9a92a2ce5c8f35f93e85d28e86f3cc062c26f723ee5461a82d",
+        "scope": "Complete GBRV collection through the normal reader, exact preservation of converted operators, complete reference pairs, valence electron count and native atomic inverse initialization."
+      }
+    ],
+    "reader_requirements": "Closed [Ne]3s2 and [Ar]3d10 4s2 core configurations for GBRV Ga q19, Pd q16 and Rh q15.",
+    "reader_commit": "c168ae38c55d03738a1c2b6607fb0bcdbc36b2ea"
   }
 }
