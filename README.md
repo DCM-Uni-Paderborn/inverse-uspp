@@ -27,7 +27,7 @@ PSLibrary calls its LDA source directory `pz` and uses Perdew–Zunger correlati
 
 The numbers are catalog identifiers. They do not indicate accuracy levels. The collection contains 589 compatible replays and 271 auxiliary reconstructions. The latter include all 195 upstream GBRV files.
 
-For both approaches, the original local potential, projectors, nonlocal coefficients, augmentation and core density remain unchanged. In a UPF v2 file, only `has_wfc` is enabled and a `PP_FULL_WFC` block is added. Every other original data section remains byte for byte unchanged. A comment and the catalog identify each supplement.
+For both approaches, the original local potential, projectors, nonlocal coefficients, augmentation and core density remain unchanged. Reference supplementation enables `has_wfc` and adds `PP_FULL_WFC`. The SSSP core kinetic supplements described below also enable `with_metagga_info` and add `PP_TAUMOD`. Every original operator, reference-wave and core-density section remains byte for byte unchanged. Comments and the catalog identify each supplement.
 
 An inverse calculation uses `E_inv[Psi] = E_UPF[T^-1 Psi]`. All density, normalization-metric, kinetic-energy and geometry corrections needed by the original functional must be retained. Invertibility alone does not justify the reduced `INVERSE_1C` identities or an all-electron interpretation of auxiliary waves.
 
@@ -48,7 +48,9 @@ All 860 files passed the CP2K development reader and native atomic inverse initi
 
 GBRV Ga q19, Pd q16 and Rh q15 require the additional closed-core configurations in the [CP2K development reader](https://github.com/DCM-Uni-Paderborn/cp2k/commit/c168ae38c55d03738a1c2b6607fb0bcdbc36b2ea).
 
-No model-core kinetic-energy density was added. Complete valence reference pairs do not resolve the separate NLCC core-tau requirement of the chosen meta-GGA extension. The LDA and GGA functionals included here do not require that additional quantity.
+The 76 SSSP USPPs with nonzero NLCC additionally contain an explicitly defined model-core kinetic-energy density. The other ten SSSP USPPs require no core kinetic addition. Complete closed-shell core references come from embedded GIPAW data or retained Vanderbilt atomic states. For Te PBE and PBEsol, matching retained QE atomic output completes the missing 4d shell. The original NLCC charge is reproduced by a common radial rescaling of these reference orbitals. The resulting `ORBITAL_RESCALE` field is an auxiliary XC prescription, not recovered original generator core tau. Its occupations and source hashes are recorded in the UPF and catalog.
+
+All 86 SSSP files pass native import, canonical kinetic-field construction, Fourier evaluation and finite center/reciprocal response checks. These data checks do not establish all-element meta-GGA SCF convergence or physical accuracy. The additional PSLibrary and GBRV files retain their original core-data scope. LDA/GGA calculations do not require or use the added kinetic field, and the potentials retain their original generating functional.
 
 ## Preparation tools
 
@@ -58,6 +60,8 @@ No model-core kinetic-energy density was added. Complete valence reference pairs
 python tools/prepare_upf.py original.upf generated.upf supplemented.upf
 python tools/prepare_upf.py original.upf reference-waves.dat supplemented.upf --format vanderbilt
 ```
+
+The core kinetic supplements are prepared with [`add_upf_core_tau.py`](https://github.com/DCM-Uni-Paderborn/cp2k/blob/183249a118add779270d7bd14c3d8db8b06ee365/tools/pseudopotentials/add_upf_core_tau.py) from CP2K. Its companion `add_upf_full_waves.py` must be available in the same directory. The catalog supplies the closed-shell occupations and any external reference file under `inputs/core-kinetic/`. Embedded GIPAW references need no separate file. The model is selected explicitly with `--model orbital-rescale`. Use `--vanderbilt-ae` for Vanderbilt references or `--qe-ae-wfc` to complete a GIPAW table with matching scalar QE output.
 
 `generate_pslibrary.py` runs baseline and full-wave atomic calculations. `--functionals pz pw91 bp revpbe wc` selects the additional functionals. An optional `--sssp-catalog` restricts generation to elements missing from the SSSP USPP selection. `import_pslibrary.py` prepares the supplements and appends them to an existing collection. `generate_gbrv.py` runs the selected Vanderbilt inputs. `patch_vanderbilt.py` adds the reference export to a separate generator source copy. With recent GNU Fortran, link `date_compat.f90` when the legacy date routine is unavailable. Generator binaries, build trees and raw verification output are excluded.
 

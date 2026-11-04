@@ -174,5 +174,20 @@
     ],
     "reader_requirements": "Closed [Ne]3s2 and [Ar]3d10 4s2 core configurations for GBRV Ga q19, Pd q16 and Rh q15.",
     "reader_commit": "c168ae38c55d03738a1c2b6607fb0bcdbc36b2ea"
+  },
+  "core_kinetic_extension": {
+    "model": "ORBITAL_RESCALE",
+    "preparation_utility_repository": "https://github.com/DCM-Uni-Paderborn/cp2k",
+    "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+    "preparation_utility_path": "tools/pseudopotentials/add_upf_core_tau.py",
+    "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+    "prepared_models": 76,
+    "zero_core_originals": 10,
+    "external_reference_files": 46,
+    "reference_bytes": 3300792,
+    "native_library_sha256": "4075d513a8c1015b31ad9b52baddfee00c5f440de5d72a9436ae2e3b7dac0401",
+    "native_source_manifest_sha256": "57573afe16af26ed116ab50857e57f7a20e99588fdf024537c02e7af424f3149",
+    "native_scope": "Original production reader, canonical kinetic-field constructor, Fourier evaluation, finite center and reciprocal responses. No all-element system SCF, force/stress, or accuracy qualification.",
+    "model_definition": "Common radial rescaling of a complete normalized closed-shell reference reproduces the supplied NLCC charge. This is an explicitly prescribed auxiliary core kinetic field, not original generator tau."
   }
 }

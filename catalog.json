@@ -52,11 +52,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Ac.us.pbe.z_11.ld1.psl.v1.0.0-high.upf",
-      "sha256": "5957e2afbcea459b02029475a864eab274bd03f3369fc91f974cefd5e634cfa2",
+      "sha256": "f6a2a33be27fd436a1a7293428473fa602a191d1775f2051e86488f2b1463bcc",
       "reference_source_sha256": "1ebddfc0d161971e8dfc056614a8fb709619e1b4148f1c50742fb53cd47b0f4b",
-      "bytes": 3923041,
+      "bytes": 3954506,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -64,7 +64,34 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "5957e2afbcea459b02029475a864eab274bd03f3369fc91f974cefd5e634cfa2",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Al",
@@ -103,11 +130,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Al.us.pbe.z_3.ld1.psl.v1.0.0-low.upf",
-      "sha256": "997d56575b525d807af07b766481c7c5d504945349c97ea17306417162dbeeb6",
+      "sha256": "f18e500e0a01a2635c5f4b54bf201aafb3c92e5cb6858ea2f3d0314729d5164d",
       "reference_source_sha256": "6d1744a1c369a516bc3acc0b402028dda8f94eea0f88dcb3e351e6690bad40d8",
-      "bytes": 1102869,
+      "bytes": 1130614,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -115,7 +142,24 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "997d56575b525d807af07b766481c7c5d504945349c97ea17306417162dbeeb6",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Am",
@@ -166,11 +210,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Am.us.pbe.z_17.ld1.psl.v1.0.0-high.upf",
-      "sha256": "a22e61cb8c6647e6dae2c1bdd8c3bcc509173a39d397655f1f801d92bd6590c0",
+      "sha256": "9864b5a12346debcb4e6e045ded4a48a7652e92cee3a8f9cf2ed4e16c82404f6",
       "reference_source_sha256": "b2f53c405e6883cee538c1061921ae9a67550f1f59319984fd23c60211d142c4",
-      "bytes": 3930502,
+      "bytes": 3962063,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -178,7 +222,34 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "a22e61cb8c6647e6dae2c1bdd8c3bcc509173a39d397655f1f801d92bd6590c0",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Au",
@@ -300,18 +371,48 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Au.us.pbe.z_11.uspp.gbrv.v1.upf",
-      "sha256": "bcfa8eb82f3205ef8e0a1643b314384bf2f598c04797f317e5272c346bef565d",
+      "sha256": "a2dddefaf1ad482bb7680494a297364b1066c59a069dfee2d750e9bd4dcc8cc1",
       "reference_source_sha256": "e11a2c51aafa7d5887ccff22b5aa58ad7281eece77d549ebdc755467968a05aa",
-      "bytes": 1706165,
+      "bytes": 1730421,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbe-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 68,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "bcfa8eb82f3205ef8e0a1643b314384bf2f598c04797f317e5272c346bef565d",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Au/atom.ae",
+        "reference_sha256": "0afe82cc8fe8ea7691fb7c3bbf7a326fdaccfb09eca2c6bdd592fe4be9fd987d"
+      }
     },
     {
       "element": "Be",
@@ -350,11 +451,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Be.us.pbe.z_2.ld1.psl.v1.0.0-low.n.upf",
-      "sha256": "f91f4b235cabcf672e5ff2a7e49dc40e99f1642e641ca8de6b5a984ab7f0626f",
+      "sha256": "60c2d7d19ed764cd83ab56d2429407dd88b5826558186dede22aed478acaa80d",
       "reference_source_sha256": "a93d225744236839cc86de720f05fe32a819ecefd7e2bfd71f697a3a7524a831",
-      "bytes": 935880,
+      "bytes": 961363,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -362,7 +463,21 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2
+        ],
+        "core_electrons": 2,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "f91f4b235cabcf672e5ff2a7e49dc40e99f1642e641ca8de6b5a984ab7f0626f",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Bi",
@@ -463,11 +578,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Bi.us.pbe.z_15.uspp.gbrv.v1.upf",
-      "sha256": "f5fc5c7a63e9cc6db0ac15d33606e1534e488b5f14139a3d231ec3994b0062a5",
+      "sha256": "ef146515e71af1ccfc8537c3eec5e59603a7394ccf39d39db8f74c2b21c4fdb3",
       "reference_source_sha256": "2a37e24d20f39624857658b3eb153abeac6dac0aa1dea23535bf28e39d4e41fc",
-      "bytes": 1192051,
+      "bytes": 1214243,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -475,7 +590,37 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 68,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "f5fc5c7a63e9cc6db0ac15d33606e1534e488b5f14139a3d231ec3994b0062a5",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Bi/atom.ae",
+        "reference_sha256": "49b004bd3e10e04a5663f89573d0d262722a492793ce3f6c9bf60005bab3a047"
+      }
     },
     {
       "element": "C",
@@ -546,11 +691,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/C.us.pbe.z_4.uspp.gbrv.v1.2.upf",
-      "sha256": "39a3d934897af37b889ae0ee02688b1cb95d77527ace6d0050258de02562db14",
+      "sha256": "889fee07d8601f603b8db5167b51515511f7086db80aa6e5c1f8b9f0a031b9e5",
       "reference_source_sha256": "31131bed71be7e24569f7502d886b80c087fb01794b3d53cfb8fe04921ae9596",
-      "bytes": 513983,
+      "bytes": 531876,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -558,7 +703,25 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          0,
+          0
+        ],
+        "core_electrons": 2,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "39a3d934897af37b889ae0ee02688b1cb95d77527ace6d0050258de02562db14",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/C/atom.ae",
+        "reference_sha256": "617df44144d3d7822b243d82143302cf69416c506c41b655a351b7af62e68b43"
+      }
     },
     {
       "element": "Ca",
@@ -659,11 +822,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Ca.us.pbe.z_10.uspp.gbrv.v1.upf",
-      "sha256": "2665abccc407399986cf87853235ff2ce1a008682121db841ff42cbb5e57eed5",
+      "sha256": "4c3388099abc46b940e030ccb127d1869dbf3569fe1092c96c8bde29a60c81b5",
       "reference_source_sha256": "2a7d89d455fbb7bc5d6bc7488384b4dec3b3f7e865e8702d2b1a391064d5353e",
-      "bytes": 1140760,
+      "bytes": 1161637,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -671,7 +834,29 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "2665abccc407399986cf87853235ff2ce1a008682121db841ff42cbb5e57eed5",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Ca/atom.ae",
+        "reference_sha256": "2195cdb9d4f7cabf5f93a6715b7334f4a3a240408b7a254951dccb8cc0faef8a"
+      }
     },
     {
       "element": "Cl",
@@ -716,11 +901,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Cl.us.pbe.z_7.ld1.psl.v1.0.0-high.upf",
-      "sha256": "386d9b0564135059ac340af202dff5345fbadfc54d1b784198daa550bd3b54fc",
+      "sha256": "7517b35a10847b1e4b25ec1fa697a4f20ba82c2cf9556a4cea96d62778b3cadb",
       "reference_source_sha256": "eb854056ae752e8a6ac1386e2eaaa6f7eaf8b5582e80284d8f5fd1b996b8d688",
-      "bytes": 1845313,
+      "bytes": 1873586,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -728,7 +913,24 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "386d9b0564135059ac340af202dff5345fbadfc54d1b784198daa550bd3b54fc",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Cr",
@@ -829,11 +1031,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Cr.us.pbe.z_14.uspp.gbrv.v1.5.upf",
-      "sha256": "117149a9c8ce8236b8a8504898b4d5be303f81d9fc9decec3b7d677000617e7d",
+      "sha256": "cb2136fbe035b86fedfd198e1cf64659ae630c0e270501ee173ab16c2e354a47",
       "reference_source_sha256": "3f57a3e53e45d16c8ae885db2ad92ff2baa2284034356120e6953cb4edc22cb3",
-      "bytes": 1151375,
+      "bytes": 1172540,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -841,7 +1043,29 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "117149a9c8ce8236b8a8504898b4d5be303f81d9fc9decec3b7d677000617e7d",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Cr/atom.ae",
+        "reference_sha256": "dbf0e1cab106f40393bef8f355fc1b509c87aaadc9cbb03c842111fb0a409a86"
+      }
     },
     {
       "element": "Cs",
@@ -892,18 +1116,43 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Cs.us.pbe.z_9.ld1.psl.v1.0.0-high.upf",
-      "sha256": "8b033b9ff8e6820ab278316234abfe583df79bf2ebec844eb69439cf695f4fdc",
+      "sha256": "137adcd9ccb1a8db3e539d2cfd7c8c794bd80421e1fd06ed38c35b2e6ba2290f",
       "reference_source_sha256": "80b05d2987619da3bb2af891368f623e6e66ceaff9187143ba0ee2a7f61489fe",
-      "bytes": 3911484,
+      "bytes": 3942031,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbe-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          10,
+          0
+        ],
+        "core_electrons": 46,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "8b033b9ff8e6820ab278316234abfe583df79bf2ebec844eb69439cf695f4fdc",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "F",
@@ -985,7 +1234,8 @@
       "sssp_collections": [
         "pbe-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Ge",
@@ -1086,11 +1336,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Ge.us.pbe.z_14.uspp.gbrv.v1.4.upf",
-      "sha256": "ab8334e1bf38013aacad032a75f34e85d388525a51c4e0cc7723a419259c454f",
+      "sha256": "9bb91578b0d71218192f42318680ac8b1d55c843e6c1346ff4e58bbb906b7c2d",
       "reference_source_sha256": "8b7699e2177d2e2f14a0c313ee8220db46f208c148ba34596e373b73eb23e5d7",
-      "bytes": 1158432,
+      "bytes": 1179983,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -1098,7 +1348,30 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 18,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "ab8334e1bf38013aacad032a75f34e85d388525a51c4e0cc7723a419259c454f",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Ge/atom.ae",
+        "reference_sha256": "7cb1d916075d2075d6d667cfb943b40f59abeba01b81da7268842844272af15b"
+      }
     },
     {
       "element": "H",
@@ -1158,7 +1431,8 @@
       "sssp_collections": [
         "pbe-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Hg",
@@ -1259,11 +1533,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Hg.us.pbe.z_12.uspp.gbrv.v1.upf",
-      "sha256": "5e6e9a5aa53b2de467b7ed6528696fdcd5619f5359c01163755e3c705947aff7",
+      "sha256": "a09eef70c1330b16e2234ea35d695bb9b762e07bb9fc718dca4a6910f1941c45",
       "reference_source_sha256": "d04d2ff3cbda03967d6e12666f0ec1c21625d254c181ce094efe7bc529165aee",
-      "bytes": 1305829,
+      "bytes": 1330085,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -1271,7 +1545,37 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 68,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "5e6e9a5aa53b2de467b7ed6528696fdcd5619f5359c01163755e3c705947aff7",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Hg/atom.ae",
+        "reference_sha256": "7edd0bac0744301edc92edcb59a700ef0cbfa0f5aad271f602897a8ee3c687d3"
+      }
     },
     {
       "element": "I",
@@ -1372,11 +1676,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/I.us.pbe.z_7.uspp.gbrv.v1.upf",
-      "sha256": "2b5166b4ab26d2e2ed9eb73f598049a8d40e3c9f5c01470f10fd2ca1484b3768",
+      "sha256": "39ff1208fdd9eb4fbd816086d424c39eb5a0af7b028dc6f251792606926cd1ae",
       "reference_source_sha256": "0892e28bf05ce0219360d23f6396336b8dc8ceaf9043dc4958b4ffb13f233fdc",
-      "bytes": 1166220,
+      "bytes": 1188259,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -1384,7 +1688,33 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          0
+        ],
+        "core_electrons": 46,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "2b5166b4ab26d2e2ed9eb73f598049a8d40e3c9f5c01470f10fd2ca1484b3768",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/I/atom.ae",
+        "reference_sha256": "192178eac9871ef5069bef6b1b97faa71bc3677945d513364d63eb10b4cbfa02"
+      }
     },
     {
       "element": "In",
@@ -1429,11 +1759,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/In.us.pbe.z_13.ld1.psl.v0.2.2.upf",
-      "sha256": "ccd87cfd393336852dd4d61a1eddfbf0fdd0f0b2447093d377798b1c46aeaf28",
+      "sha256": "8c91b4121c8a87a31877de90da4488f09fb8f55815369440710d191d5543cb87",
       "reference_source_sha256": "fa935da36474bc2b038886fc23307385ef0bd3b92e8b58a207d46d6193bfc061",
-      "bytes": 2191369,
+      "bytes": 2221667,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -1441,7 +1771,28 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10
+        ],
+        "core_electrons": 36,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "ccd87cfd393336852dd4d61a1eddfbf0fdd0f0b2447093d377798b1c46aeaf28",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Li",
@@ -1535,7 +1886,8 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Mg",
@@ -1663,7 +2015,8 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Mn",
@@ -1764,11 +2117,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Mn.us.pbe.z_15.uspp.gbrv.v1.5.upf",
-      "sha256": "d566d15a258909fd9a21fba6efa6cbab4911b795174c39bb62128adbc7ef2371",
+      "sha256": "bd3a55515f6c26b7f905042a4ed07228f8aa59e8001f40e8546af5513a76bcd5",
       "reference_source_sha256": "f583bd89dc499d63c389a2c1dbafecdfdfa3c86e57fdd7e654c015e394804f5d",
-      "bytes": 1167146,
+      "bytes": 1188361,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -1776,7 +2129,30 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "d566d15a258909fd9a21fba6efa6cbab4911b795174c39bb62128adbc7ef2371",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Mn/atom.ae",
+        "reference_sha256": "517bff4cb735f988025480a0791c360aac9a15c277144c8fddcc8c93bd7e0707"
+      }
     },
     {
       "element": "N",
@@ -1847,18 +2223,36 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/N.us.pbe.z_5.uspp.gbrv.v1.2.upf",
-      "sha256": "9e057dad498cec2f43b738ab91c06a5bcf0f1dc32928b173feb1c73ba8fdae91",
+      "sha256": "9889d3823875ade30ff8151d895e0b0e1c37443f436c5c160e001679e853936c",
       "reference_source_sha256": "6688e730b1a44c956c9ac097b272b31dead94c37cb0cfaaea93ee730e4174033",
-      "bytes": 519266,
+      "bytes": 537351,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbe-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          0,
+          0
+        ],
+        "core_electrons": 2,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "9e057dad498cec2f43b738ab91c06a5bcf0f1dc32928b173feb1c73ba8fdae91",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/N/atom.ae",
+        "reference_sha256": "10e211dfd0500290fa86a9488b7aae87aef4ad290b1dcbe90483abc7a6c7259e"
+      }
     },
     {
       "element": "Np",
@@ -1909,11 +2303,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Np.us.pbe.z_15.ld1.psl.v1.0.0-high.upf",
-      "sha256": "53171c03ae0527500de4b77e436492b2156fd2a563b311baea8616f49b15bcaf",
+      "sha256": "3273fa2178e2358ec6685bd6962d767a85e5810ab53bb5118ecf1c10c0dbc482",
       "reference_source_sha256": "133076bf56c307211fb7fec722e74e4e9eaa01a92bbd641c9bd18d91303c741f",
-      "bytes": 3926626,
+      "bytes": 3958187,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -1921,7 +2315,34 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "53171c03ae0527500de4b77e436492b2156fd2a563b311baea8616f49b15bcaf",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Os",
@@ -2060,11 +2481,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Os.us.pbe.z_16.uspp.gbrv.v1.2.upf",
-      "sha256": "4fe047573e38d3cfdb25224d57cef91c942d57a6968e0ae49d341cade4ee77f5",
+      "sha256": "58288288a4a30a13692f72389573d42d51c0cbb7c0e6f47aff4241a24a05ed59",
       "reference_source_sha256": "b940bde1bae10deee4d0692bc80db4a3f40982a488a0ba8f176d5546ef78db4b",
-      "bytes": 2254954,
+      "bytes": 2279162,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2072,7 +2493,37 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 60,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "4fe047573e38d3cfdb25224d57cef91c942d57a6968e0ae49d341cade4ee77f5",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Os/atom.ae",
+        "reference_sha256": "35d8e52107e693e2cd998c5a8388fc3bb8e652e5c36a61a6aa5c69bca65d1732"
+      }
     },
     {
       "element": "P",
@@ -2117,11 +2568,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/P.us.pbe.z_5.ld1.psl.v1.0.0-high.upf",
-      "sha256": "d60d371a085c8776aeace33abc743ba65d6ae9fd02e7fb748617809231d544bb",
+      "sha256": "2e73e58831f5be7fbb6c016d63727a21a81dded032a6d5a1d49ffda4ae03cece",
       "reference_source_sha256": "2d60c22dc235a8150cface23f16edec4402effcd1b3b150583157baba49803c0",
-      "bytes": 1832389,
+      "bytes": 1860422,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2129,7 +2580,24 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "d60d371a085c8776aeace33abc743ba65d6ae9fd02e7fb748617809231d544bb",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Pt",
@@ -2230,18 +2698,48 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Pt.us.pbe.z_16.uspp.gbrv.v1.4.upf",
-      "sha256": "6f506433e899817e1263306ae390270e2f1162da1e264917752daa6c7753ddc3",
+      "sha256": "1487179e8b21ab9591b238ab0f94616641a9386cc1518d7d368a32aedf4fb62e",
       "reference_source_sha256": "f41ed861da283bb71910a9874d54cb2f207adfd6ce151da502658894bb915939",
-      "bytes": 1329480,
+      "bytes": 1353736,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbe-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 62,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "6f506433e899817e1263306ae390270e2f1162da1e264917752daa6c7753ddc3",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Pt/atom.ae",
+        "reference_sha256": "d51fee60fa734776efa3559d3b09e3a7fd386808cbe1d7e01ae609f27d10ae4f"
+      }
     },
     {
       "element": "Pu",
@@ -2292,11 +2790,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Pu.us.pbe.z_16.ld1.psl.v1.0.0-high.upf",
-      "sha256": "136c1a2fca91789bdba48b533b30e489d8f139a0083999a766a3d7af38ffc479",
+      "sha256": "d1bde736644388b69e755965dbd6aa7ea81ba9f3b0806cadc4b57e6f92ab17d4",
       "reference_source_sha256": "216e07d265552d66cb920b13805b2409f94b06b59d9c207fe743be933c41d2ee",
-      "bytes": 3936299,
+      "bytes": 3967860,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2304,7 +2802,34 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "136c1a2fca91789bdba48b533b30e489d8f139a0083999a766a3d7af38ffc479",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Rb",
@@ -2405,11 +2930,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Rb.us.pbe.z_9.uspp.gbrv.v1.upf",
-      "sha256": "1bfcb8254624337e377c4b5483dca24d892eab9b14681292ae490ee8fc780343",
+      "sha256": "241310473c2f0e560933479323b77f0f8e153d4ecd560f0c2d90e6fff9b2c829",
       "reference_source_sha256": "5303c6559fd1d9103e3f21375b4209fb4c1a071d2f67b23dd784fc93eb95389b",
-      "bytes": 1184410,
+      "bytes": 1206158,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2417,7 +2942,32 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "1bfcb8254624337e377c4b5483dca24d892eab9b14681292ae490ee8fc780343",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Rb/atom.ae",
+        "reference_sha256": "82cee1718def2556b5fb32833eae212c5e0c715b460ddcdcd53804c56e5a2fd6"
+      }
     },
     {
       "element": "Re",
@@ -2556,11 +3106,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Re.us.pbe.z_15.uspp.gbrv.v1.2.upf",
-      "sha256": "1e49d992ffc1b6f5fee5d9450b125e102d6fb396f4df334e39e064c8a3f12d42",
+      "sha256": "660fccd3f9ae0af4f67093381b325346f27b1893175874369fdeb1c246f59175",
       "reference_source_sha256": "ed4bac87e73290fb62c049ace9b8c624ad339365a6fcf3c233deb0040989641a",
-      "bytes": 2248225,
+      "bytes": 2272385,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2568,7 +3118,37 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 60,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "1e49d992ffc1b6f5fee5d9450b125e102d6fb396f4df334e39e064c8a3f12d42",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Re/atom.ae",
+        "reference_sha256": "6e77dc3a0018c507c79c950a229128f622b4f09cfd6fd7a8ad19d1c84099f7cc"
+      }
     },
     {
       "element": "Sc",
@@ -2669,11 +3249,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Sc.us.pbe.z_11.uspp.gbrv.v1.upf",
-      "sha256": "e7be75f80c5e4cccb02ce32a61c11670a29f38ac88054269d272b828a3f865a9",
+      "sha256": "6a8b2559c6688d0b1f9c95a8702534718c736d4105e598b5e6fa8d59afd0b8ee",
       "reference_source_sha256": "cd36c5948ec4ac598b3e363d0fcbbb189a4da542f1e2991fa082b74396b42073",
-      "bytes": 1159881,
+      "bytes": 1180856,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2681,7 +3261,30 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "e7be75f80c5e4cccb02ce32a61c11670a29f38ac88054269d272b828a3f865a9",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Sc/atom.ae",
+        "reference_sha256": "bfd4883749679ea1e4e3e300b145c04e060f834b9fc08e38eb556dc10252d124"
+      }
     },
     {
       "element": "Se",
@@ -2782,11 +3385,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Se.us.pbe.z_6.uspp.gbrv.v1.upf",
-      "sha256": "d507c6a6069fcd5ecacfdbe1c1a277c3458546fecd0d3e3fa46e5e6aef06acb0",
+      "sha256": "e258cb3dc4e38e0daed7f2a62f58b0d3933a92f82f05457abcc43daed1c9748d",
       "reference_source_sha256": "e1aedef11497d16aaa004d9da96be2b9ce2a9da2fe3a93bb5f3c2647b01a7034",
-      "bytes": 1144288,
+      "bytes": 1165936,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2794,7 +3397,30 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "d507c6a6069fcd5ecacfdbe1c1a277c3458546fecd0d3e3fa46e5e6aef06acb0",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Se/atom.ae",
+        "reference_sha256": "271c8a076083c73c7d988f08911be0d3e93a36f94d9e411c4db0963ff8c80af5"
+      }
     },
     {
       "element": "Si",
@@ -2839,11 +3465,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Si.us.pbe.z_4.ld1.psl.v1.0.0-high.upf",
-      "sha256": "e1aaa26648180a1d33eb920f29507f940b731d230033f7b787b85e059030c580",
+      "sha256": "711d06efa0743f0d19e70e93542a770361cefea384bc53f90a1ff7e32399b438",
       "reference_source_sha256": "af69821dd9405bb317d0448629cdbcdce2cd9abc587727f351cb82cb3032d82d",
-      "bytes": 1823460,
+      "bytes": 1851349,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2851,7 +3477,24 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "e1aaa26648180a1d33eb920f29507f940b731d230033f7b787b85e059030c580",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Sm",
@@ -2902,11 +3545,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Sm.us.pbe.z_26.ld1.psl.v1.0.0-high.upf",
-      "sha256": "029a714ef179a4726d18113e70f66ab328fc72096d5d5c387a54ba058dea6271",
+      "sha256": "515bc96de921e96a79e5d796e24ad1374ff7b297b0a8ff002631ac5f86246852",
       "reference_source_sha256": "33c5ce5184307612a2b72bebf7904bc50f6fffe724508e4500ac0f27cf23c35e",
-      "bytes": 3756745,
+      "bytes": 3787477,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -2914,7 +3557,29 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0
+        ],
+        "core_electrons": 36,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "029a714ef179a4726d18113e70f66ab328fc72096d5d5c387a54ba058dea6271",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Sr",
@@ -3015,11 +3680,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Sr.us.pbe.z_10.uspp.gbrv.v1.upf",
-      "sha256": "a5b05b9489f29eec81b038b58f116d8d9809128e854acfac487d9e9cfac37b9f",
+      "sha256": "a71a6160f9c8e89c559e6a963721d79826c8786a6abc306c5e5204dff39ae42f",
       "reference_source_sha256": "fa98b900616a047f3e96d695455af00833f39060105e4047c3ea7c95e7013d8c",
-      "bytes": 1209963,
+      "bytes": 1231761,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3027,7 +3692,33 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "a5b05b9489f29eec81b038b58f116d8d9809128e854acfac487d9e9cfac37b9f",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Sr/atom.ae",
+        "reference_sha256": "ed7e4b68d6333cccbd727880cc9500a8e4837ab16f564382523526951e6f8115"
+      }
     },
     {
       "element": "Tc",
@@ -3128,11 +3819,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Tc.us.pbe.z_15.uspp.gbrv.v1.upf",
-      "sha256": "748a00db09d0dd56a2a71df5be7f4f6b94f0bac555d5e1758f1e01017d37b757",
+      "sha256": "47f6def5081bc0324dadc3fd371da7ed37108f608483718c8ab615435b103f5d",
       "reference_source_sha256": "d45ca085f59d189449f9c3b1f5c897744036e97e7423c690994353c6ac723257",
-      "bytes": 1318185,
+      "bytes": 1341951,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3140,7 +3831,33 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "748a00db09d0dd56a2a71df5be7f4f6b94f0bac555d5e1758f1e01017d37b757",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Tc/atom.ae",
+        "reference_sha256": "7c015a8fe25a88edfbb0c04f85620bff6a26c44eaf4ad03e9c5bed2648e85db4"
+      }
     },
     {
       "element": "Te",
@@ -3185,11 +3902,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Te.us.pbe.z_6.ld1.psl.v1.0.0-low.upf",
-      "sha256": "294f276f4de3d529450cada7fcf62a4a2a0f4c05663be997d60a73818d2130c0",
+      "sha256": "f18a549987c29d084e9e9b3965a62d33b7c17f8a0f66f77ceb1f9395f64556d1",
       "reference_source_sha256": "e6d7695a827aba680e693c3a9e81b466137134c2c32aee2ae95f602e14e7e52f",
-      "bytes": 2167896,
+      "bytes": 2198381,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3197,7 +3914,34 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          10
+        ],
+        "core_electrons": 46,
+        "reference_kind": "gipaw_plus_qe_atomic",
+        "original_reference_supplemented_upf_sha256": "294f276f4de3d529450cada7fcf62a4a2a0f4c05663be997d60a73818d2130c0",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Te/ld1.wfc",
+        "reference_sha256": "0f89abc4b63cbf179192b19a059e47726c2ea1383b569a4caba9f31054b834c1"
+      }
     },
     {
       "element": "Th",
@@ -3248,11 +3992,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Th.us.pbe.z_12.ld1.psl.v1.0.0-high.upf",
-      "sha256": "a3370483a9adc768243285db7787aa54f16194446ff6157bcefc22774369a11a",
+      "sha256": "fcf63672db4a9e0d9137f844673d49ca895c1965f95c4a72423f5bfe15bf1d65",
       "reference_source_sha256": "59ea3ab27688fcf437e7305f79d06347fbb1f4b9293d6160877b4d60ac6bf09d",
-      "bytes": 3911430,
+      "bytes": 3942895,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3260,7 +4004,34 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "a3370483a9adc768243285db7787aa54f16194446ff6157bcefc22774369a11a",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Ti",
@@ -3361,11 +4132,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Ti.us.pbe.z_12.uspp.gbrv.v1.4.upf",
-      "sha256": "180e4b0c3370726ca5b0af39483f495734dab6a24bebf2234fe71e6a23c53b99",
+      "sha256": "5f1ac9b8ff1b7f199c83a55dba0291ac3fc0a631c9a2669eab5c184568625ebf",
       "reference_source_sha256": "c7342c68d390e617b109cfb8c955a286d7e30199b8bc453f987b8b87fb174034",
-      "bytes": 1144198,
+      "bytes": 1165219,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3373,7 +4144,29 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "180e4b0c3370726ca5b0af39483f495734dab6a24bebf2234fe71e6a23c53b99",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Ti/atom.ae",
+        "reference_sha256": "5a563e5b6c36eddecb782149e454059f6bde07e57e1b2b6a976fea7c1cb6ad1b"
+      }
     },
     {
       "element": "V",
@@ -3474,11 +4267,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/V.us.pbe.z_13.uspp.gbrv.v1.4.upf",
-      "sha256": "1e0b182a7b3839ce1f1414786aea47a272ab82b0f2006739150b35d5188df862",
+      "sha256": "5a0b66b58b7e35c1f8236e6e28421a89f3310c6cdc787c1487834ee24ae273ed",
       "reference_source_sha256": "f19c5d2ae7b9a555195612766848bc54491962bd3a72282777541657b6214f25",
-      "bytes": 1142045,
+      "bytes": 1163114,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3486,7 +4279,29 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "1e0b182a7b3839ce1f1414786aea47a272ab82b0f2006739150b35d5188df862",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/V/atom.ae",
+        "reference_sha256": "34ebc73b1aa4eb077f10abb55f481e90998773443e89184ab822cf25ef80b28a"
+      }
     },
     {
       "element": "Y",
@@ -3587,11 +4402,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Y.us.pbe.z_11.uspp.gbrv.v1.4.upf",
-      "sha256": "0dea7853853a296ddd13c06ad630c4772aee47019bc9ae52115755b3663748d4",
+      "sha256": "197750f2d6f90ab77fbb01ad3522fcb022718de3ac2ed1e3120c6f56cb1e6e3e",
       "reference_source_sha256": "0732043cee04a22366294d1da65b3963d754f652349bc2957378f2553f140743",
-      "bytes": 1214433,
+      "bytes": 1236279,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3599,7 +4414,33 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "0dea7853853a296ddd13c06ad630c4772aee47019bc9ae52115755b3663748d4",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Y/atom.ae",
+        "reference_sha256": "23ea506b348e3afce020c575519920899973ad00b1bf381c937ef895537d9fc1"
+      }
     },
     {
       "element": "Zr",
@@ -3700,11 +4541,11 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/Zr.us.pbe.z_12.uspp.gbrv.v1.upf",
-      "sha256": "f74b537b9b3751ad640e0e5a357dbc040e5d4afcc22e25b4326741ff0936a23e",
+      "sha256": "0903d4ad5bbe1d9dcb7470605151afed63d2782281c0287b9ffc2b7afd51dbd8",
       "reference_source_sha256": "8d233960e21164e6ca99845064e168b979f7d1341545fef71b8e0365783ec8e7",
-      "bytes": 1217106,
+      "bytes": 1239000,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3712,7 +4553,33 @@
         "pbe-eff",
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "f74b537b9b3751ad640e0e5a357dbc040e5d4afcc22e25b4326741ff0936a23e",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbe/Zr/atom.ae",
+        "reference_sha256": "372d65f5eb07463f0de673bd29d67ec44c6e6fe8b40fb8b89f1bb98b63314737"
+      }
     },
     {
       "element": "At",
@@ -3757,18 +4624,43 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/At.us.pbe.z_17.ld1.psl.v1.0.0-high.upf",
-      "sha256": "ebf76187bfb5999eaf9b03da6823d8fb9b7ee77598d95fee5cc606fc5e1ef249",
+      "sha256": "a18060f3ed5ddd6a1661df9851d7d5078dea4363101a9d69319293e0e4777450",
       "reference_source_sha256": "d6fcf28372397937a143615d1a4f9f0eb7fa1a4c3aba5b72147833461a884742",
-      "bytes": 2392591,
+      "bytes": 2423955,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14
+        ],
+        "core_electrons": 68,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "ebf76187bfb5999eaf9b03da6823d8fb9b7ee77598d95fee5cc606fc5e1ef249",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "F",
@@ -3807,18 +4699,33 @@
       },
       "functional": "pbe",
       "file": "data/pbe/sssp/F.us.pbe.z_7.ld1.psl.v0.1.upf",
-      "sha256": "99e488d3e2ca1839dcab666c89641af07d8cff69599cdcb31326d5615338b2ad",
+      "sha256": "fb0ac4cb3f1ee20852589182bd2408fd3cbfac4d5c147b812b7df7b2c513b7cb",
       "reference_source_sha256": "9425a62867f89a4f555114b3475e710f74a6dcf5791e9864eeb730cb43d291c0",
-      "bytes": 1018191,
+      "bytes": 1045212,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          0
+        ],
+        "core_electrons": 2,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "99e488d3e2ca1839dcab666c89641af07d8cff69599cdcb31326d5615338b2ad",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "H",
@@ -3862,7 +4769,8 @@
       "sssp_collections": [
         "pbe-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Ac",
@@ -3913,11 +4821,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Ac.us.pbesol.z_11.ld1.psl.v1.0.0-high.upf",
-      "sha256": "a0f4faed5a86fb04bbab9f97d060037525356721005d0f4df293054ef7da19a5",
+      "sha256": "3c8fa59807916f9ac42764055407e020eb70c953c6aa447fbfeda6fe5ae32cb7",
       "reference_source_sha256": "63f84bf511e2a054e9d23a561fee343ed327c052ef080f282586cd99b7f40291",
-      "bytes": 3922961,
+      "bytes": 3954426,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3925,7 +4833,34 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "a0f4faed5a86fb04bbab9f97d060037525356721005d0f4df293054ef7da19a5",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Al",
@@ -3964,11 +4899,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Al.us.pbesol.z_3.ld1.psl.v1.0.0-low.upf",
-      "sha256": "a5f92ff99b9c64a0ce679fb20b5ee046c990425127cadb359010eb44b448133f",
+      "sha256": "de9e18773c3edc9057cc18949c79de84e0ff9e4a375b4fc4f504b0c2adb97a5f",
       "reference_source_sha256": "775cc6e86223394bcd89749bcc222ad33998d0bc4a36f9297bc9a75687f9e170",
-      "bytes": 1100543,
+      "bytes": 1128288,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -3976,7 +4911,24 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "a5f92ff99b9c64a0ce679fb20b5ee046c990425127cadb359010eb44b448133f",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Am",
@@ -4027,11 +4979,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Am.us.pbesol.z_17.ld1.psl.v1.0.0-high.upf",
-      "sha256": "ba873866218fbcbe88195862775f5062c5dc1dc6dadcfd397e580eab3ef084a6",
+      "sha256": "1735e78d153d443e85176b9f750c47c701b0ed325591cc60da187f0859f0b1d3",
       "reference_source_sha256": "e4d6ac51cce190cf13083a9c95acee1a018c408e6f5083239630337727412cdf",
-      "bytes": 3930575,
+      "bytes": 3962136,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4039,7 +4991,34 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "ba873866218fbcbe88195862775f5062c5dc1dc6dadcfd397e580eab3ef084a6",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Au",
@@ -4161,18 +5140,48 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Au.us.pbesol.z_11.uspp.gbrv.v1.upf",
-      "sha256": "41c3383fc4353aa061a48281b671e71c71ec0cff01da52bb688c8c8f030381cf",
+      "sha256": "5bd6add0179515decf02bb8f9c4deeafaeadd4e1af2bfc22f66bc2d9f591004d",
       "reference_source_sha256": "5103ac7c66829dcf249659dec39490d9a44e74ae6eef9b541072e7ab2f55c193",
-      "bytes": 1705933,
+      "bytes": 1730189,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbesol-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 68,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "41c3383fc4353aa061a48281b671e71c71ec0cff01da52bb688c8c8f030381cf",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Au/atom.ae",
+        "reference_sha256": "3bbeba93607fdc2bfb4820d81460f98ce423cec1ea63616ab3712ac44810d515"
+      }
     },
     {
       "element": "Be",
@@ -4211,11 +5220,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Be.us.pbesol.z_2.ld1.psl.v1.0.0-low.n.upf",
-      "sha256": "4782989f69f4cb640c08bc5bf48ad0b0ce22ff90e806d505faf070d54f2ed4e3",
+      "sha256": "23ab33751071e63ca6e48aa3ca7b585bfe456131ac22272010ff620d3f7ef6bd",
       "reference_source_sha256": "6677447bd2e22652efed3ff0e1f8fc7a591e3a653fd39f0c91b5faa6ffba5542",
-      "bytes": 933740,
+      "bytes": 959223,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4223,7 +5232,21 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2
+        ],
+        "core_electrons": 2,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "4782989f69f4cb640c08bc5bf48ad0b0ce22ff90e806d505faf070d54f2ed4e3",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Bi",
@@ -4324,11 +5347,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Bi.us.pbesol.z_15.uspp.gbrv.v1.upf",
-      "sha256": "9f2e971760d455c4227ce7898788075e81a313f07acbf7dfa6df9f213b4461eb",
+      "sha256": "3c7f866fc902af6411ae543e6684d18b4537ab2ff12cf52cd6bacaa624545ed7",
       "reference_source_sha256": "df564cb03fcc2c554ea093daab4608177b38e75ea3d329228a0debeb8436b55f",
-      "bytes": 1192460,
+      "bytes": 1214652,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4336,7 +5359,37 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 68,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "9f2e971760d455c4227ce7898788075e81a313f07acbf7dfa6df9f213b4461eb",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Bi/atom.ae",
+        "reference_sha256": "a0bf475e943f103479ee1de5d46e1394c25dfe7ee705c7c0c01e453b22fe3edc"
+      }
     },
     {
       "element": "C",
@@ -4407,11 +5460,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/C.us.pbesol.z_4.uspp.gbrv.v1.2.upf",
-      "sha256": "9e52750df3de5e5eba79d7eb95a27fa25042667a83fefe38596a48b4360f1126",
+      "sha256": "9451cd31b820177c20c46876e1711bc7f6180e704caa931d11663d715356bf5e",
       "reference_source_sha256": "42858cf24763139e2b997119b76a669c6e31f4b75cadaae787702e206cfb8098",
-      "bytes": 513754,
+      "bytes": 531647,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4419,7 +5472,25 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          0,
+          0
+        ],
+        "core_electrons": 2,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "9e52750df3de5e5eba79d7eb95a27fa25042667a83fefe38596a48b4360f1126",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/C/atom.ae",
+        "reference_sha256": "d8f3a704f9f963a09d76796c5f286d5bcb171069b2afb273cec8e7a240b37356"
+      }
     },
     {
       "element": "Ca",
@@ -4520,11 +5591,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Ca.us.pbesol.z_10.uspp.gbrv.v1.upf",
-      "sha256": "e670a301b1ba0f85fe0268819c4f00a0e670629eeb7c6dc5700144ac736d6da4",
+      "sha256": "84e46fac08eb78b129ddb4f758784c3948ad6943c94331aafcef392c653be140",
       "reference_source_sha256": "813e4feebb2804bb186061d72db9957a07e34ad8dfc457c3fd06155f779eb980",
-      "bytes": 1140554,
+      "bytes": 1161431,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4532,7 +5603,29 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "e670a301b1ba0f85fe0268819c4f00a0e670629eeb7c6dc5700144ac736d6da4",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Ca/atom.ae",
+        "reference_sha256": "0950b7a011659f45643bd4fcc6f13d20375497948dcd8c5d190df9773c465f4b"
+      }
     },
     {
       "element": "Cl",
@@ -4577,11 +5670,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Cl.us.pbesol.z_7.ld1.psl.v1.0.0-high.upf",
-      "sha256": "518a63126d8686bbe60500cbc57fd2454c97cf54438dd5b84149984009bf0cb8",
+      "sha256": "3d5e1f916c21d2fcbce8171775d11c26411dfb264ccbf050b8f52566cfdacc1f",
       "reference_source_sha256": "ab20f36764535779027d1f1ba66f982e0748cc273a0c3d1e4aa73f09e0ba4c6a",
-      "bytes": 1845328,
+      "bytes": 1873601,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4589,7 +5682,24 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "518a63126d8686bbe60500cbc57fd2454c97cf54438dd5b84149984009bf0cb8",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Cr",
@@ -4690,11 +5800,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Cr.us.pbesol.z_14.uspp.gbrv.v1.5.upf",
-      "sha256": "d6fcba5d08d03fefd6dc5e6284a5695b2763ae02ff7859350eee2c9844d07b19",
+      "sha256": "abaa01b52c71bac406247a4241e3a8e4fd454061f6e8546929d2b4c18890d95d",
       "reference_source_sha256": "4b6ca39daf9e3457f4d3979fa197bc9373901297d3ad1f046ff2385aaa922fd9",
-      "bytes": 1151124,
+      "bytes": 1172289,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4702,7 +5812,29 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "d6fcba5d08d03fefd6dc5e6284a5695b2763ae02ff7859350eee2c9844d07b19",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Cr/atom.ae",
+        "reference_sha256": "9e2addbe2b67cdd2012de02c6a52dff6ed738f545044813b232ee2a5a58272ae"
+      }
     },
     {
       "element": "Cs",
@@ -4753,18 +5885,43 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Cs.us.pbesol.z_9.ld1.psl.v1.0.0-high.upf",
-      "sha256": "4925ad67aeba92df191a542a7e98a33e3108de63ea6d795aababa97009729f4a",
+      "sha256": "644f234616f0505ac0eaa279781d94ab3f024ad2aa6605168a87e0b5ba76849e",
       "reference_source_sha256": "966ac036bb3727bf65f3821299799a1c53fd75ab4fccda8f54c2829b55ae08dc",
-      "bytes": 3909621,
+      "bytes": 3940168,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbesol-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          10,
+          0
+        ],
+        "core_electrons": 46,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "4925ad67aeba92df191a542a7e98a33e3108de63ea6d795aababa97009729f4a",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "F",
@@ -4846,7 +6003,8 @@
       "sssp_collections": [
         "pbesol-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Ge",
@@ -4947,11 +6105,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Ge.us.pbesol.z_14.uspp.gbrv.v1.4.upf",
-      "sha256": "aac73cbcb1cfd88d30e6435e2ae82a83a61e70fa9802a46382fc4ef2449685ad",
+      "sha256": "4d2e2e174ff5b631ef1ee833fa898410bdc77ab14d2d78be4be25799e7162ff3",
       "reference_source_sha256": "6cbf460ae6cf9bf3636358924af8b7ab61a5e8ad57c6965c2b5fe5db61c9620b",
-      "bytes": 1158205,
+      "bytes": 1179756,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -4959,7 +6117,30 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 18,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "aac73cbcb1cfd88d30e6435e2ae82a83a61e70fa9802a46382fc4ef2449685ad",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Ge/atom.ae",
+        "reference_sha256": "b784c87b27385f0996d0d7db06846f501270a5cd8b3dd4710c6a28e2099b7142"
+      }
     },
     {
       "element": "H",
@@ -5019,7 +6200,8 @@
       "sssp_collections": [
         "pbesol-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Hg",
@@ -5120,11 +6302,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Hg.us.pbesol.z_12.uspp.gbrv.v1.upf",
-      "sha256": "395be32848db68cf17a32aa45b6bb2376ee7fdd018dd14073e588a28646c9e11",
+      "sha256": "c5ec971719d08fcf4a40284262d3a5b9590e03640c37038c8ba7568292f66400",
       "reference_source_sha256": "685979a9799c4f8cb87daabe7676f564cfe010d0b0cda08c94979cbb407a26fb",
-      "bytes": 1305603,
+      "bytes": 1329859,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -5132,7 +6314,37 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 68,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "395be32848db68cf17a32aa45b6bb2376ee7fdd018dd14073e588a28646c9e11",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Hg/atom.ae",
+        "reference_sha256": "a40c1c057919dd4a23bc29a61a23aa06e3a3943a6098339c5ee2c0ce06f365dc"
+      }
     },
     {
       "element": "I",
@@ -5233,11 +6445,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/I.us.pbesol.z_7.uspp.gbrv.v1.upf",
-      "sha256": "dd7bd00ec7d5e6c34683538b664c27e39b44c49407e9faa0ccf3a99a0ea0310e",
+      "sha256": "a324ba1c754539aebf9001d1d961b6b3bf83edcdfa512dc7c970e30f8c990e13",
       "reference_source_sha256": "142b1177cb2fb6096ff53973b76416036a8bb9d1ceb4c6a0dcabb7feb776b084",
-      "bytes": 1165887,
+      "bytes": 1187926,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -5245,7 +6457,33 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          0
+        ],
+        "core_electrons": 46,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "dd7bd00ec7d5e6c34683538b664c27e39b44c49407e9faa0ccf3a99a0ea0310e",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/I/atom.ae",
+        "reference_sha256": "f927076b4608d19427c5db47f3aeb4074b08c51abf352c4ad8faa338ef9211ee"
+      }
     },
     {
       "element": "In",
@@ -5290,11 +6528,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/In.us.pbesol.z_13.ld1.psl.v0.2.2.upf",
-      "sha256": "106f15d193c867526adef296dce6666ed2950a5fe9add396c0e3e17800ca727e",
+      "sha256": "540ba0cd736ce4bdcc51ee2e0ee193c504e2c7eaa3984767ae0e78de8de605bf",
       "reference_source_sha256": "a30c984b3eb824e29a64bd9460befdcfd02f15aa2cfa79a88de4562b175af958",
-      "bytes": 2191252,
+      "bytes": 2221550,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -5302,7 +6540,28 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10
+        ],
+        "core_electrons": 36,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "106f15d193c867526adef296dce6666ed2950a5fe9add396c0e3e17800ca727e",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Li",
@@ -5396,7 +6655,8 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Mg",
@@ -5524,7 +6784,8 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "Mn",
@@ -5625,11 +6886,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Mn.us.pbesol.z_15.uspp.gbrv.v1.5.upf",
-      "sha256": "5973307f916abaaa347fb6eb9d70c632c1e3160cca49ba007e5cf12acb2f2d4c",
+      "sha256": "bcabd02eac69a594638b65e594cdfcf13cf04f7cc8253f53b9c51a087f732a6c",
       "reference_source_sha256": "d0e2b72d70d68c0e72f3225d4266177fdb4e09ab965e5a04357905525ba7fd0b",
-      "bytes": 1166915,
+      "bytes": 1188130,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -5637,7 +6898,30 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "5973307f916abaaa347fb6eb9d70c632c1e3160cca49ba007e5cf12acb2f2d4c",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Mn/atom.ae",
+        "reference_sha256": "906614c3225f6375f7408b0331d7c1afa827b4c0fd6be704dba5407dc48cc80a"
+      }
     },
     {
       "element": "N",
@@ -5708,18 +6992,36 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/N.us.pbesol.z_5.uspp.gbrv.v1.2.upf",
-      "sha256": "74c87bc582abc84aaec918d7a50d9df0312b7e5d999d3a6afde217087fb25a7e",
+      "sha256": "44abb91b5247a59446d799db6eb4b0d2d0573ab069c02b60845cbea716801247",
       "reference_source_sha256": "9ed4e4d37c0bbe90a8f34d63e157029a034344cacb529ef0e6f09a40b958a1ac",
-      "bytes": 519040,
+      "bytes": 537125,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbesol-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          0,
+          0
+        ],
+        "core_electrons": 2,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "74c87bc582abc84aaec918d7a50d9df0312b7e5d999d3a6afde217087fb25a7e",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/N/atom.ae",
+        "reference_sha256": "1c719afcdfd1ce151534e13becf5c7d48597ddfebe24c4a44419972b0ef582ff"
+      }
     },
     {
       "element": "Np",
@@ -5770,11 +7072,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Np.us.pbesol.z_15.ld1.psl.v1.0.0-high.upf",
-      "sha256": "1e8474594dd7618a78c8ffc5dcb007a75e19d2e3eeda942510bbe8b490215035",
+      "sha256": "25866befea638260391b6ac97082a7023f61e76683b8b0de32b918fb621fffb8",
       "reference_source_sha256": "8e18ab12945a163ef1e59fe87830b7783d112fd8169cda7efee4569c3ca613b4",
-      "bytes": 3927132,
+      "bytes": 3958693,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -5782,7 +7084,34 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "1e8474594dd7618a78c8ffc5dcb007a75e19d2e3eeda942510bbe8b490215035",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Os",
@@ -5921,11 +7250,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Os.us.pbesol.z_16.uspp.gbrv.v1.2.upf",
-      "sha256": "f436dbef1b2eb6cfc336a276ac57c556734c782bfd72e61069bd38ac886e53b9",
+      "sha256": "d8925127f7f03bf38e197fef272446329672ffac0bfcec22e2cd6b0837a92ed2",
       "reference_source_sha256": "23e71dc61380b45d5d456d533cde557cced7fb024208ae414539e9eacd364384",
-      "bytes": 2254698,
+      "bytes": 2278906,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -5933,7 +7262,37 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 60,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "f436dbef1b2eb6cfc336a276ac57c556734c782bfd72e61069bd38ac886e53b9",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Os/atom.ae",
+        "reference_sha256": "a96b248b16ebc706be5263a417617fc5e7a55adb43a3b013c41dd92bd3ea413b"
+      }
     },
     {
       "element": "P",
@@ -5978,11 +7337,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/P.us.pbesol.z_5.ld1.psl.v1.0.0-high.upf",
-      "sha256": "f71b0200fe8eccaf3878b4ac8ba99b7185a6dd4286beb2008be8bf4634ea62f1",
+      "sha256": "6becfdcbccda8b3acba2cf50fc70f48f9bc9f34c429ae8dc808f3a609f3f34a0",
       "reference_source_sha256": "342f332fba526d162ccd6eec11be0a4c802d1632da7f862db5915a4d350eab9d",
-      "bytes": 1830109,
+      "bytes": 1858142,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -5990,7 +7349,24 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "f71b0200fe8eccaf3878b4ac8ba99b7185a6dd4286beb2008be8bf4634ea62f1",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Pt",
@@ -6091,18 +7467,48 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Pt.us.pbesol.z_16.uspp.gbrv.v1.4.upf",
-      "sha256": "98350e3c3ece7facc1e1cf180949e1c462a1eafc7aaece5940da1aabaa87e6fb",
+      "sha256": "1cc951ac88263617c810fc357c0eb42331a5e58ef76510c3de029c00a1b5ea13",
       "reference_source_sha256": "fd87aceb175187b73f88c57a0e88400aef8d00222e3134c41c3878cffa60f9a3",
-      "bytes": 1328557,
+      "bytes": 1352813,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbesol-eff"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 62,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "98350e3c3ece7facc1e1cf180949e1c462a1eafc7aaece5940da1aabaa87e6fb",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Pt/atom.ae",
+        "reference_sha256": "3246b6b0d49b27a4692ad56b895824c7fa5a81d3b5ada36d03a0893f21e90b73"
+      }
     },
     {
       "element": "Pu",
@@ -6153,11 +7559,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Pu.us.pbesol.z_16.ld1.psl.v1.0.0-high.upf",
-      "sha256": "14fa73c1bcc2d0ae395f8892dd0cb3ae84f5dca7231bd6edecaacdba20794aef",
+      "sha256": "f24560767e566b761fe120d45fdf3526d7ee4773ee638315541bd264f84729df",
       "reference_source_sha256": "c13a7d80d82670d4801f411ef7446e8bfa2a3e41a7c7ede9cf12f5669e418e0d",
-      "bytes": 3936340,
+      "bytes": 3967901,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6165,7 +7571,34 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "14fa73c1bcc2d0ae395f8892dd0cb3ae84f5dca7231bd6edecaacdba20794aef",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Rb",
@@ -6266,11 +7699,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Rb.us.pbesol.z_9.uspp.gbrv.v1.upf",
-      "sha256": "79ddc5ddfc44ca482dc80e3818f8cecc92525948c76f491966207c405422ff16",
+      "sha256": "f1f41a19dbbdb6216c09e0b6782b68dbf146217365f982631cdb7b30596ffa42",
       "reference_source_sha256": "36b18dc673b4017bd4fcab8d689e76f1c3427c22a099a3614c623cd731a9403c",
-      "bytes": 1183725,
+      "bytes": 1205473,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6278,7 +7711,32 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "79ddc5ddfc44ca482dc80e3818f8cecc92525948c76f491966207c405422ff16",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Rb/atom.ae",
+        "reference_sha256": "77c9573cfc9296a5bd158f4722e04418d7a9887e21da23ffa6c573cb27d867e6"
+      }
     },
     {
       "element": "Re",
@@ -6420,11 +7878,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Re.us.pbesol.z_15.uspp.gbrv.v1.2.upf",
-      "sha256": "8cb461d9cc20cfbd4ca334002b8ccfe060ceadab083329915dae2e439778a8c8",
+      "sha256": "c64b0deec6668eb4bff484afb44b07cecc88f99a5e27455a9da1bde222dcde91",
       "reference_source_sha256": "42529756a8778a396daac0faf87ecbb0cd8099835cd7a86c87debf6f647906b3",
-      "bytes": 2248010,
+      "bytes": 2272170,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6432,7 +7890,37 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 60,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "8cb461d9cc20cfbd4ca334002b8ccfe060ceadab083329915dae2e439778a8c8",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Re/atom.ae",
+        "reference_sha256": "3dbb313275f3975d27968fed055a8ac350c67ca46c11c6b2bda7a53916f4c13b"
+      }
     },
     {
       "element": "Sc",
@@ -6533,11 +8021,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Sc.us.pbesol.z_11.uspp.gbrv.v1.upf",
-      "sha256": "13ab5abdc57c2443bceef549a0319c9eeb7e51e5576b47349846770ea202ff90",
+      "sha256": "c3ce08cbfce5ae9d93a3c4113832509f1e281c0a59a7a031539a1265f0651038",
       "reference_source_sha256": "21b1a308b8763eed754fcdec1c4a3fb4f9f3f53969236ee4e833df0cb2f78265",
-      "bytes": 1159697,
+      "bytes": 1180672,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6545,7 +8033,30 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "13ab5abdc57c2443bceef549a0319c9eeb7e51e5576b47349846770ea202ff90",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Sc/atom.ae",
+        "reference_sha256": "c2dba7ca7cb69c00b59f829083ba94008917c5e450052a6b45484095f91cf574"
+      }
     },
     {
       "element": "Se",
@@ -6646,11 +8157,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Se.us.pbesol.z_6.uspp.gbrv.v1.upf",
-      "sha256": "06441636b381c62820c6b87fafbcb11d64c7303eb3749f21901e1922a3cf4f76",
+      "sha256": "8efff88b8e0946553fb23ca8bf3eebb56f7727cf4d727a6223a36a3e8ac4bb04",
       "reference_source_sha256": "f1c8c82185669496d2ffa325d3cd66edb1ccb64c2639e5cab5b07afece165224",
-      "bytes": 1144055,
+      "bytes": 1165703,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6658,7 +8169,30 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "06441636b381c62820c6b87fafbcb11d64c7303eb3749f21901e1922a3cf4f76",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Se/atom.ae",
+        "reference_sha256": "6b9a26d8a3cd960ed1db0e7b3e14af458053e40f81a7de08f17a5e19d4a5674f"
+      }
     },
     {
       "element": "Si",
@@ -6703,11 +8237,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Si.us.pbesol.z_4.ld1.psl.v1.0.0-high.upf",
-      "sha256": "5bf65365a94234be04f7bd8005bbd7a4ae149e7607dfe531eb91a34975c94914",
+      "sha256": "fd7d25ac8ac329747da67b297089ddbe56069dce42a7ccef7e0bfd6f476a2fa5",
       "reference_source_sha256": "d441ad3cb9ebcde1f9c75551e279c253c5d67143bca57ca8ba23a33b4b1cf2bc",
-      "bytes": 1823568,
+      "bytes": 1851457,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6715,7 +8249,24 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "5bf65365a94234be04f7bd8005bbd7a4ae149e7607dfe531eb91a34975c94914",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Sm",
@@ -6766,11 +8317,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Sm.us.pbesol.z_26.ld1.psl.v1.0.0-high.upf",
-      "sha256": "b93c9086c0e96b8a3c73ef4448581f0ca04ab75c328fbfa7af7050910791957d",
+      "sha256": "798fd35512db9eecf65f66746503b9d5fe2506cbd55ec6ac89cc2e6f01aeff44",
       "reference_source_sha256": "93f638851f91f2af9b9faae014d31b277a01ebac22edb21054b8bd0925dd0505",
-      "bytes": 3756724,
+      "bytes": 3787456,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6778,7 +8329,29 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0
+        ],
+        "core_electrons": 36,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "b93c9086c0e96b8a3c73ef4448581f0ca04ab75c328fbfa7af7050910791957d",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Sr",
@@ -6879,11 +8452,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Sr.us.pbesol.z_10.uspp.gbrv.v1.upf",
-      "sha256": "ef428eab03ecdf74b6285a6f05dbec1b4e91c517b959907d8562aaed7f9391e8",
+      "sha256": "744e1606bdbc6c4ba45389b291da9b264590b33a0cf5c2938ce50f6d0a24ad05",
       "reference_source_sha256": "23dad135812629edcf644400450cbbea49c611986ad5ce7c2e7aee68604e42bd",
-      "bytes": 1210177,
+      "bytes": 1231975,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -6891,7 +8464,33 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "ef428eab03ecdf74b6285a6f05dbec1b4e91c517b959907d8562aaed7f9391e8",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Sr/atom.ae",
+        "reference_sha256": "fa5a9b3f7c89542f7fe43e01078218a0fc62b29a39a9cd88fa9b5d8090130a4a"
+      }
     },
     {
       "element": "Tc",
@@ -6992,11 +8591,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Tc.us.pbesol.z_15.uspp.gbrv.v1.upf",
-      "sha256": "54c2bbb067f5a8dc613057deab1b44bdda93017529103f84803c4206ce381d21",
+      "sha256": "802b87b7cc1490990c9ea983da23b6b3ed9da71dc4f95eca60b14dc02c64fe42",
       "reference_source_sha256": "ab22beb2c9f552da8f0d9fc366fbdc874d67862228ca6e75c11261652e7c25a6",
-      "bytes": 1317919,
+      "bytes": 1341685,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -7004,7 +8603,33 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "54c2bbb067f5a8dc613057deab1b44bdda93017529103f84803c4206ce381d21",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Tc/atom.ae",
+        "reference_sha256": "c2f95265dfb46b39e4f37f5d57793a0b0ab52417e0995f03a0be14a10d084981"
+      }
     },
     {
       "element": "Te",
@@ -7049,11 +8674,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Te.us.pbesol.z_6.ld1.psl.v1.0.0-low.upf",
-      "sha256": "9541ede35fc8e02ba227f274a2ee4eedc8865c3d9a0123d56befd3ffc651d466",
+      "sha256": "16202390c11bb22f2438f11df877eadc0dfb453e924a8258571360fe3e2e5192",
       "reference_source_sha256": "4b951281d6b0a5a918abd0936f608a6704d28f7ecab52e20789d0a0983a17851",
-      "bytes": 2167715,
+      "bytes": 2198200,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -7061,7 +8686,34 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          10
+        ],
+        "core_electrons": 46,
+        "reference_kind": "gipaw_plus_qe_atomic",
+        "original_reference_supplemented_upf_sha256": "9541ede35fc8e02ba227f274a2ee4eedc8865c3d9a0123d56befd3ffc651d466",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Te/ld1.wfc",
+        "reference_sha256": "2f8e8718764046d3580cadbc517dc7ceac307e2ccb61d87d7aff5f01524f1ee0"
+      }
     },
     {
       "element": "Th",
@@ -7112,11 +8764,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Th.us.pbesol.z_12.ld1.psl.v1.0.0-high.upf",
-      "sha256": "26a5f78e12123459fbe6d4fa0f9228c84e490888b4e0f0599f2a857e8c67c588",
+      "sha256": "9a993562f0a16acbc39b9d4a97c827e43f8891b5a5335c42206c68322af42911",
       "reference_source_sha256": "676504ad849d13efb89e87b7d97b8b65ac5d8ee18886a4d113eea1c1154609e9",
-      "bytes": 3911527,
+      "bytes": 3942992,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -7124,7 +8776,34 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          0,
+          10,
+          14
+        ],
+        "core_electrons": 78,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "26a5f78e12123459fbe6d4fa0f9228c84e490888b4e0f0599f2a857e8c67c588",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "Ti",
@@ -7225,11 +8904,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Ti.us.pbesol.z_12.uspp.gbrv.v1.4.upf",
-      "sha256": "08f9645bb623ef0e539d64cb563dc02c574fdb569b93271d8eebefa6284217d1",
+      "sha256": "cddb20339a28d0c96f31cc8593f323b8c7b0b8dac97d7ba18762ddb859b0616b",
       "reference_source_sha256": "49bd99d98ca6e6587b9d516b397572e6807cf9c70e9bf5b62297718aa5bf63ae",
-      "bytes": 1143955,
+      "bytes": 1164976,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -7237,7 +8916,29 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "08f9645bb623ef0e539d64cb563dc02c574fdb569b93271d8eebefa6284217d1",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Ti/atom.ae",
+        "reference_sha256": "7aaefbd6474c367577cfa40396df38927f391f5d6345c98f9dc2f17d5a6c547d"
+      }
     },
     {
       "element": "V",
@@ -7338,11 +9039,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/V.us.pbesol.z_13.uspp.gbrv.v1.4.upf",
-      "sha256": "5e2dd38f3685f19e404067285d4edc6dc78f14173315380bbc6db1b930dc9177",
+      "sha256": "873639c63f87e33be9dfe8cde8d95b1c437e29ddbde9b628ec0b1f6b620a5ba4",
       "reference_source_sha256": "78748b0763f5c1e32f8778b94b007ac9a20ffcbe76c1fa3c99d368516a180b22",
-      "bytes": 1142178,
+      "bytes": 1163247,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -7350,7 +9051,29 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 10,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "5e2dd38f3685f19e404067285d4edc6dc78f14173315380bbc6db1b930dc9177",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/V/atom.ae",
+        "reference_sha256": "8240dfb302620495267ad28e1ae691b89ca54dc571eb496f069af5f9fee374ab"
+      }
     },
     {
       "element": "Y",
@@ -7451,11 +9174,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Y.us.pbesol.z_11.uspp.gbrv.v1.4.upf",
-      "sha256": "e6e19dc7a8caa46a4db00dbc560922e33ff9bfb913e86ca5929d5d17afadfdff",
+      "sha256": "5bedfa447fbf5bd583bf3467af977eaa99b78f924202927f9c68735029dbc733",
       "reference_source_sha256": "5c1b68e825acb35e4222c8669a4280b6e42674298277a6474701505efb0631e7",
-      "bytes": 1214204,
+      "bytes": 1236050,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -7463,7 +9186,33 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "e6e19dc7a8caa46a4db00dbc560922e33ff9bfb913e86ca5929d5d17afadfdff",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Y/atom.ae",
+        "reference_sha256": "b7c0251e0ab0dc27bd0b5248848c520e37e0458cccc1b372e163b8270a6d0e02"
+      }
     },
     {
       "element": "Zr",
@@ -7564,11 +9313,11 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/Zr.us.pbesol.z_12.uspp.gbrv.v1.upf",
-      "sha256": "3a59db2487b6f4f74c9bd3fae5fb68eb764448363873ba5f6a9381cee0968af6",
+      "sha256": "1237b53136ed07a2adfebd1dae32c9b72374fc068a7c7fd73f60e2c989ce2586",
       "reference_source_sha256": "be504e1f1d69dfcf08f2caa9c2c83f317172005ea26ecd2310f02462dd817d77",
-      "bytes": 1216859,
+      "bytes": 1238753,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
@@ -7576,7 +9325,33 @@
         "pbesol-eff",
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          10,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "core_electrons": 28,
+        "reference_kind": "vanderbilt_ae",
+        "original_reference_supplemented_upf_sha256": "3a59db2487b6f4f74c9bd3fae5fb68eb764448363873ba5f6a9381cee0968af6",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true,
+        "reference_file": "inputs/core-kinetic/pbesol/Zr/atom.ae",
+        "reference_sha256": "c3adaa88e1e3f6afe8466a45e97088d7a08bbf042e11353ccb0afc094d58c476"
+      }
     },
     {
       "element": "At",
@@ -7621,18 +9396,43 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/At.us.pbesol.z_17.ld1.psl.v1.0.0-high.upf",
-      "sha256": "9bc5a4b10ed23fef1b01e44584945e0eb9a92aedc4f6b9e14a7dd63c3fd18ce1",
+      "sha256": "4f774e67ce972ffa2b43c9344f3023b8cb16eea0666b5c0c37bd9c6ce6f32cb2",
       "reference_source_sha256": "1c75b626d7c13bd4dd7d6a6bd1eab9961f9d075182c13493d746461f6eade469",
-      "bytes": 2388853,
+      "bytes": 2420217,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          2,
+          6,
+          2,
+          6,
+          2,
+          6,
+          10,
+          2,
+          6,
+          10,
+          14
+        ],
+        "core_electrons": 68,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "9bc5a4b10ed23fef1b01e44584945e0eb9a92aedc4f6b9e14a7dd63c3fd18ce1",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "F",
@@ -7671,18 +9471,33 @@
       },
       "functional": "pbesol",
       "file": "data/pbesol/sssp/F.us.pbesol.z_7.ld1.psl.v0.1.upf",
-      "sha256": "fd667e16986a5e6dfb7000f46966d97c11b92f2b49b059feb27f5e758710df95",
+      "sha256": "914321007a30114e6c05496b2ed36e05d5720c591396d7cc1ca4b47b8b50d590",
       "reference_source_sha256": "617e6e3a0bbd9dcfc77cbfccd1344f78ae6d2536f11024d10348a7c087cbe6c1",
-      "bytes": 1018491,
+      "bytes": 1045512,
       "nlcc": true,
-      "model_core_tau_added": false,
+      "model_core_tau_added": true,
       "complete_projector_pairs": true,
       "original_operator_sections_unchanged": true,
       "full_cp2k_calculation_qualified": false,
       "sssp_collections": [
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "model_core_tau": {
+        "model": "ORBITAL_RESCALE",
+        "convention": "hartree_per_volume",
+        "occupations": [
+          2,
+          0
+        ],
+        "core_electrons": 2,
+        "reference_kind": "embedded_gipaw",
+        "original_reference_supplemented_upf_sha256": "fd667e16986a5e6dfb7000f46966d97c11b92f2b49b059feb27f5e758710df95",
+        "preparation_utility_commit": "183249a118add779270d7bd14c3d8db8b06ee365",
+        "preparation_utility_sha256": "f924cacf033d3c949ec31d8de86d20f3f5d88f01ac5e9e7a567b9a4d51c9f785",
+        "original_generator_tau_recovered": false,
+        "native_field_check_passed": true
+      }
     },
     {
       "element": "H",
@@ -7726,7 +9541,8 @@
       "sssp_collections": [
         "pbesol-prec"
       ],
-      "cp2k_native_data_check_passed": true
+      "cp2k_native_data_check_passed": true,
+      "core_kinetic_addition_required": false
     },
     {
       "element": "He",
@@ -64451,7 +66267,9 @@
       "4": 271,
       "3": 589
     },
-    "upf_bytes": 1881703431
+    "upf_bytes": 1883618233,
+    "model_core_tau_added": 76,
+    "SSSP_core_kinetic_addition_not_required": 10
   },
   "validation": {
     "cp2k_native_data_checks_passed": 389,
@@ -64492,6 +66310,199 @@
     "4": {
       "name": "auxiliary_reconstruction",
       "description": "Complete exported wave pairs define an invertible T while all original UPF operators are retained. The original energy is evaluated with T^-1 Psi. A compatible historical generator replay and reduced one-center identities are not implied."
+    }
+  },
+  "core_kinetic_extension": {
+    "model": "ORBITAL_RESCALE",
+    "scope": "76SSSP USPPs with nonzero NLCC. The10otherSSSP files need no core kinetic addition. Additional datasets retain their existing core scope.",
+    "original_generator_tau_recovered": false,
+    "original_operator_and_reference_sections_unchanged": true,
+    "all_element_SCF_or_accuracy_qualified": false,
+    "reference_files": {
+      "inputs/core-kinetic/pbe/Au/atom.ae": {
+        "sha256": "0afe82cc8fe8ea7691fb7c3bbf7a326fdaccfb09eca2c6bdd592fe4be9fd987d",
+        "bytes": 102076
+      },
+      "inputs/core-kinetic/pbe/Bi/atom.ae": {
+        "sha256": "49b004bd3e10e04a5663f89573d0d262722a492793ce3f6c9bf60005bab3a047",
+        "bytes": 98004
+      },
+      "inputs/core-kinetic/pbe/C/atom.ae": {
+        "sha256": "617df44144d3d7822b243d82143302cf69416c506c41b655a351b7af62e68b43",
+        "bytes": 20572
+      },
+      "inputs/core-kinetic/pbe/Ca/atom.ae": {
+        "sha256": "2195cdb9d4f7cabf5f93a6715b7334f4a3a240408b7a254951dccb8cc0faef8a",
+        "bytes": 45036
+      },
+      "inputs/core-kinetic/pbe/Cr/atom.ae": {
+        "sha256": "dbf0e1cab106f40393bef8f355fc1b509c87aaadc9cbb03c842111fb0a409a86",
+        "bytes": 44364
+      },
+      "inputs/core-kinetic/pbe/Ge/atom.ae": {
+        "sha256": "7cb1d916075d2075d6d667cfb943b40f59abeba01b81da7268842844272af15b",
+        "bytes": 50796
+      },
+      "inputs/core-kinetic/pbe/Hg/atom.ae": {
+        "sha256": "7edd0bac0744301edc92edcb59a700ef0cbfa0f5aad271f602897a8ee3c687d3",
+        "bytes": 101788
+      },
+      "inputs/core-kinetic/pbe/I/atom.ae": {
+        "sha256": "192178eac9871ef5069bef6b1b97faa71bc3677945d513364d63eb10b4cbfa02",
+        "bytes": 73020
+      },
+      "inputs/core-kinetic/pbe/Mn/atom.ae": {
+        "sha256": "517bff4cb735f988025480a0791c360aac9a15c277144c8fddcc8c93bd7e0707",
+        "bytes": 50844
+      },
+      "inputs/core-kinetic/pbe/N/atom.ae": {
+        "sha256": "10e211dfd0500290fa86a9488b7aae87aef4ad290b1dcbe90483abc7a6c7259e",
+        "bytes": 20620
+      },
+      "inputs/core-kinetic/pbe/Os/atom.ae": {
+        "sha256": "35d8e52107e693e2cd998c5a8388fc3bb8e652e5c36a61a6aa5c69bca65d1732",
+        "bytes": 101604
+      },
+      "inputs/core-kinetic/pbe/Pt/atom.ae": {
+        "sha256": "d51fee60fa734776efa3559d3b09e3a7fd386808cbe1d7e01ae609f27d10ae4f",
+        "bytes": 101668
+      },
+      "inputs/core-kinetic/pbe/Rb/atom.ae": {
+        "sha256": "82cee1718def2556b5fb32833eae212c5e0c715b460ddcdcd53804c56e5a2fd6",
+        "bytes": 63084
+      },
+      "inputs/core-kinetic/pbe/Re/atom.ae": {
+        "sha256": "6e77dc3a0018c507c79c950a229128f622b4f09cfd6fd7a8ad19d1c84099f7cc",
+        "bytes": 101692
+      },
+      "inputs/core-kinetic/pbe/Sc/atom.ae": {
+        "sha256": "bfd4883749679ea1e4e3e300b145c04e060f834b9fc08e38eb556dc10252d124",
+        "bytes": 51292
+      },
+      "inputs/core-kinetic/pbe/Se/atom.ae": {
+        "sha256": "271c8a076083c73c7d988f08911be0d3e93a36f94d9e411c4db0963ff8c80af5",
+        "bytes": 50484
+      },
+      "inputs/core-kinetic/pbe/Sr/atom.ae": {
+        "sha256": "ed7e4b68d6333cccbd727880cc9500a8e4837ab16f564382523526951e6f8115",
+        "bytes": 69828
+      },
+      "inputs/core-kinetic/pbe/Tc/atom.ae": {
+        "sha256": "7c015a8fe25a88edfbb0c04f85620bff6a26c44eaf4ad03e9c5bed2648e85db4",
+        "bytes": 75236
+      },
+      "inputs/core-kinetic/pbe/Te/ld1.wfc": {
+        "sha256": "0f89abc4b63cbf179192b19a059e47726c2ea1383b569a4caba9f31054b834c1",
+        "bytes": 200600
+      },
+      "inputs/core-kinetic/pbe/Ti/atom.ae": {
+        "sha256": "5a563e5b6c36eddecb782149e454059f6bde07e57e1b2b6a976fea7c1cb6ad1b",
+        "bytes": 44276
+      },
+      "inputs/core-kinetic/pbe/V/atom.ae": {
+        "sha256": "34ebc73b1aa4eb077f10abb55f481e90998773443e89184ab822cf25ef80b28a",
+        "bytes": 44820
+      },
+      "inputs/core-kinetic/pbe/Y/atom.ae": {
+        "sha256": "23ea506b348e3afce020c575519920899973ad00b1bf381c937ef895537d9fc1",
+        "bytes": 69396
+      },
+      "inputs/core-kinetic/pbe/Zr/atom.ae": {
+        "sha256": "372d65f5eb07463f0de673bd29d67ec44c6e6fe8b40fb8b89f1bb98b63314737",
+        "bytes": 69260
+      },
+      "inputs/core-kinetic/pbesol/Au/atom.ae": {
+        "sha256": "3bbeba93607fdc2bfb4820d81460f98ce423cec1ea63616ab3712ac44810d515",
+        "bytes": 102092
+      },
+      "inputs/core-kinetic/pbesol/Bi/atom.ae": {
+        "sha256": "a0bf475e943f103479ee1de5d46e1394c25dfe7ee705c7c0c01e453b22fe3edc",
+        "bytes": 98004
+      },
+      "inputs/core-kinetic/pbesol/C/atom.ae": {
+        "sha256": "d8f3a704f9f963a09d76796c5f286d5bcb171069b2afb273cec8e7a240b37356",
+        "bytes": 20580
+      },
+      "inputs/core-kinetic/pbesol/Ca/atom.ae": {
+        "sha256": "0950b7a011659f45643bd4fcc6f13d20375497948dcd8c5d190df9773c465f4b",
+        "bytes": 45036
+      },
+      "inputs/core-kinetic/pbesol/Cr/atom.ae": {
+        "sha256": "9e2addbe2b67cdd2012de02c6a52dff6ed738f545044813b232ee2a5a58272ae",
+        "bytes": 44372
+      },
+      "inputs/core-kinetic/pbesol/Ge/atom.ae": {
+        "sha256": "b784c87b27385f0996d0d7db06846f501270a5cd8b3dd4710c6a28e2099b7142",
+        "bytes": 50796
+      },
+      "inputs/core-kinetic/pbesol/Hg/atom.ae": {
+        "sha256": "a40c1c057919dd4a23bc29a61a23aa06e3a3943a6098339c5ee2c0ce06f365dc",
+        "bytes": 101804
+      },
+      "inputs/core-kinetic/pbesol/I/atom.ae": {
+        "sha256": "f927076b4608d19427c5db47f3aeb4074b08c51abf352c4ad8faa338ef9211ee",
+        "bytes": 73020
+      },
+      "inputs/core-kinetic/pbesol/Mn/atom.ae": {
+        "sha256": "906614c3225f6375f7408b0331d7c1afa827b4c0fd6be704dba5407dc48cc80a",
+        "bytes": 50844
+      },
+      "inputs/core-kinetic/pbesol/N/atom.ae": {
+        "sha256": "1c719afcdfd1ce151534e13becf5c7d48597ddfebe24c4a44419972b0ef582ff",
+        "bytes": 20628
+      },
+      "inputs/core-kinetic/pbesol/Os/atom.ae": {
+        "sha256": "a96b248b16ebc706be5263a417617fc5e7a55adb43a3b013c41dd92bd3ea413b",
+        "bytes": 101604
+      },
+      "inputs/core-kinetic/pbesol/Pt/atom.ae": {
+        "sha256": "3246b6b0d49b27a4692ad56b895824c7fa5a81d3b5ada36d03a0893f21e90b73",
+        "bytes": 101668
+      },
+      "inputs/core-kinetic/pbesol/Rb/atom.ae": {
+        "sha256": "77c9573cfc9296a5bd158f4722e04418d7a9887e21da23ffa6c573cb27d867e6",
+        "bytes": 63092
+      },
+      "inputs/core-kinetic/pbesol/Re/atom.ae": {
+        "sha256": "3dbb313275f3975d27968fed055a8ac350c67ca46c11c6b2bda7a53916f4c13b",
+        "bytes": 101692
+      },
+      "inputs/core-kinetic/pbesol/Sc/atom.ae": {
+        "sha256": "c2dba7ca7cb69c00b59f829083ba94008917c5e450052a6b45484095f91cf574",
+        "bytes": 51292
+      },
+      "inputs/core-kinetic/pbesol/Se/atom.ae": {
+        "sha256": "6b9a26d8a3cd960ed1db0e7b3e14af458053e40f81a7de08f17a5e19d4a5674f",
+        "bytes": 50492
+      },
+      "inputs/core-kinetic/pbesol/Sr/atom.ae": {
+        "sha256": "fa5a9b3f7c89542f7fe43e01078218a0fc62b29a39a9cd88fa9b5d8090130a4a",
+        "bytes": 69828
+      },
+      "inputs/core-kinetic/pbesol/Tc/atom.ae": {
+        "sha256": "c2f95265dfb46b39e4f37f5d57793a0b0ab52417e0995f03a0be14a10d084981",
+        "bytes": 75236
+      },
+      "inputs/core-kinetic/pbesol/Te/ld1.wfc": {
+        "sha256": "2f8e8718764046d3580cadbc517dc7ceac307e2ccb61d87d7aff5f01524f1ee0",
+        "bytes": 200600
+      },
+      "inputs/core-kinetic/pbesol/Ti/atom.ae": {
+        "sha256": "7aaefbd6474c367577cfa40396df38927f391f5d6345c98f9dc2f17d5a6c547d",
+        "bytes": 44276
+      },
+      "inputs/core-kinetic/pbesol/V/atom.ae": {
+        "sha256": "8240dfb302620495267ad28e1ae691b89ca54dc571eb496f069af5f9fee374ab",
+        "bytes": 44820
+      },
+      "inputs/core-kinetic/pbesol/Y/atom.ae": {
+        "sha256": "b7c0251e0ab0dc27bd0b5248848c520e37e0458cccc1b372e163b8270a6d0e02",
+        "bytes": 69396
+      },
+      "inputs/core-kinetic/pbesol/Zr/atom.ae": {
+        "sha256": "c3adaa88e1e3f6afe8466a45e97088d7a08bbf042e11353ccb0afc094d58c476",
+        "bytes": 69260
+      }
     }
   }
 }
