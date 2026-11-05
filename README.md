@@ -52,6 +52,14 @@ The 76 SSSP USPPs with nonzero NLCC additionally contain an explicitly defined m
 
 All 86 SSSP files pass native import, canonical kinetic-field construction, Fourier evaluation and finite center/reciprocal response checks. These data checks do not establish all-element meta-GGA SCF convergence or physical accuracy. The additional PSLibrary and GBRV files retain their original core-data scope. LDA/GGA calculations do not require or use the added kinetic field, and the potentials retain their original generating functional.
 
+## PAW core supplements
+
+Separate PBE and PBEsol archives supplement the eight SSSP PAW files for La, Pt, Pa and U whose embedded frozen-core tables are incomplete. They are available in the `paw-core-v0.1.0` release. The other 74 original SSSP PAW files already contain the required core references.
+
+`data/paw-core/<functional>/` contains ordinary UPF files for use with the corresponding CP2K PAW implementation. Only `PP_GIPAW/PP_GIPAW_CORE_ORBITALS` is replaced. All original potential, augmentation, valence-wave and core-density sections remain byte for byte unchanged. `paw-core.json` records original and supplemented hashes, generator inputs and the core compatibility criterion.
+
+The QE 6.3MaX exporter correction selects the actual `core_state` orbitals rather than an orbital-list prefix. Its patch and the atomic inputs are included under `inputs/paw-core/`. The supplied core waves reproduce the original AE core density and shared core references within the explicit `1e-9` criterion. Regenerated valence potentials are not substituted. The complete native AE and auxiliary PS core kinetic-field constructors accept all eight supplements.
+
 ## Preparation tools
 
 `tools/prepare_upf.py` requires Python, NumPy and SciPy. It preserves and checks the original operator sections and refuses to overwrite an existing output.

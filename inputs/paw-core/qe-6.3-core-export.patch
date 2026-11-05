@@ -1,0 +1,44 @@
+--- a/atomic/src/export_upf.f90
++++ b/atomic/src/export_upf.f90
+@@ -345,11 +345,14 @@
+          upf%gipaw_core_orbital_l(co), &
+          upf%gipaw_core_orbital_el(co), &
+          upf%gipaw_core_orbital(upf%mesh,co))
+-      upf%gipaw_core_orbital_n(1:co)  = nn(1:co)
+-      upf%gipaw_core_orbital_l(1:co)  = ll(1:co)
+-      upf%gipaw_core_orbital_el(1:co) = el(1:co)
+-      DO n = 1,co
+-         upf%gipaw_core_orbital(1:upf%mesh,n) &
++      upf%gipaw_core_orbital_n(1:co) = PACK(nn(1:nwf), core_state(1:nwf))
++      upf%gipaw_core_orbital_l(1:co) = PACK(ll(1:nwf), core_state(1:nwf))
++      upf%gipaw_core_orbital_el(1:co) = PACK(el(1:nwf), core_state(1:nwf))
++      co = 0
++      DO n = 1,nwf
++         IF (.NOT. core_state(n)) CYCLE
++         co = co + 1
++         upf%gipaw_core_orbital(1:upf%mesh,co) &
+             = psi(1:upf%mesh,1,n)
+       ENDDO
+       !================================================================
+@@ -383,12 +386,15 @@
+          upf%gipaw_vlocal_ps(upf%mesh) &
+          )
+ 
+-      upf%gipaw_core_orbital_n(1:co)  = nn(1:co)
+-      upf%gipaw_core_orbital_l(1:co)  = ll(1:co)
+-      upf%gipaw_core_orbital_el(1:co) = el(1:co)
+-
+-      DO n = 1,co
+-         upf%gipaw_core_orbital(1:upf%mesh,n) &
++      upf%gipaw_core_orbital_n(1:co) = PACK(nn(1:nwf), core_state(1:nwf))
++      upf%gipaw_core_orbital_l(1:co) = PACK(ll(1:nwf), core_state(1:nwf))
++      upf%gipaw_core_orbital_el(1:co) = PACK(el(1:nwf), core_state(1:nwf))
++
++      co = 0
++      DO n = 1,nwf
++         IF (.NOT. core_state(n)) CYCLE
++         co = co + 1
++         upf%gipaw_core_orbital(1:upf%mesh,co) &
+             = psi(1:upf%mesh,1,n)
+       ENDDO
+ 

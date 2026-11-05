@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "version": "v0.1.0",
+  "release_tag": "paw-core-v0.1.0",
+  "scope": "Eight SSSPv2 scalar PAW datasets supplemented only with compatible complete frozen-core orbital tables.",
+  "entries": [
+    {
+      "element": "La",
+      "functional": "pbe",
+      "file": "data/paw-core/pbe/La.paw.pbe.z_11.ld1.psl.v1.0.0-high.spfn.upf",
+      "sha256": "dbddf88e02d5923658b599e8ca67449b5aa01582ec8edd003ecb5059128f2007",
+      "bytes": 3394911,
+      "original_file": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/La.paw.pbe.z_11.ld1.psl.v1.0.0-high.spfn.upf",
+      "original_sha256": "fc148930138437f6572e038a6c0fd5f0975824fe68173294651f22d86ecc715b",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbe/La.paw.pbe.z_11.ld1.psl.v1.0.0-high.spfn.upf.in",
+      "generator_input_sha256": "ffa633aa2e349e8c9a47acbb6e94c38fb71a03299f114e1ac7e0d41e959245b8",
+      "z_valence": 11.0,
+      "complete_native_core_available": true
+    },
+    {
+      "element": "Pa",
+      "functional": "pbe",
+      "file": "data/paw-core/pbe/Pa.paw.pbe.z_13.ld1.uni-marburg.v0.upf",
+      "sha256": "4689e631529befa27731dea8fd9b71c6561674935ebc9f01cb9f138aed9895f2",
+      "bytes": 3591320,
+      "original_file": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/Pa.paw.pbe.z_13.ld1.uni-marburg.v0.upf",
+      "original_sha256": "7449f12dca36bf20749ef39ff0b8faab5ed351f2934c83da08e5f27eea429ce8",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbe/Pa.paw.pbe.z_13.ld1.uni-marburg.v0.upf.in",
+      "generator_input_sha256": "35196b94f0f7abb106190cb53b9bd0d0f9d0f81645ab93a8889a91a63ee3dd24",
+      "z_valence": 13.0,
+      "complete_native_core_available": true
+    },
+    {
+      "element": "U",
+      "functional": "pbe",
+      "file": "data/paw-core/pbe/U.paw.pbe.z_14.ld1.uni-marburg.v0.upf",
+      "sha256": "d89bce0278c9841ea5c8c1cf3fedc7b91060b311f83047bb8759bba38bb414cf",
+      "bytes": 3590485,
+      "original_file": "pbe-eff/mix-sssp-pbe-eff-lib-v2/library/U.paw.pbe.z_14.ld1.uni-marburg.v0.upf",
+      "original_sha256": "93edc03742fddf3f1b6676de2a4bb6a853ee00dc8ac9fdae7adf5e99e125ba2d",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbe/U.paw.pbe.z_14.ld1.uni-marburg.v0.upf.in",
+      "generator_input_sha256": "1af3e2f7dfcccb9e7c4d427a3df9598abb1d84760915db5af553d6011676de83",
+      "z_valence": 14.0,
+      "complete_native_core_available": true
+    },
+    {
+      "element": "Pt",
+      "functional": "pbe",
+      "file": "data/paw-core/pbe/Pt.paw.pbe.z_18.ld1.psl.v1.0.0-low.spn.upf",
+      "sha256": "b49781c25dd95c387495640da65a03a1f2f75d811f978da6d14efbdca179a1d8",
+      "bytes": 2156376,
+      "original_file": "pbe-prec/mix-sssp-prec-pbe-lib-v2/library/Pt.paw.pbe.z_18.ld1.psl.v1.0.0-low.spn.upf",
+      "original_sha256": "3fc34d63d817089570a5147efd962b2038c8d1083a0e57bba6f11467d4b9f1e4",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbe/Pt.paw.pbe.z_18.ld1.psl.v1.0.0-low.spn.upf.in",
+      "generator_input_sha256": "2bb1e22b43bd4f6345c3d3fe92a9daa89d107583d8ed4f989ef57e6ba7b3106f",
+      "z_valence": 18.0,
+      "complete_native_core_available": true
+    },
+    {
+      "element": "La",
+      "functional": "pbesol",
+      "file": "data/paw-core/pbesol/La.paw.pbesol.z_11.ld1.psl.v1.0.0-high.spfn.upf",
+      "sha256": "d5d2dbcdc8922d1eb5dd7fa6cff77d1d30766804542d88702f7b10a3633ac676",
+      "bytes": 3391225,
+      "original_file": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/La.paw.pbesol.z_11.ld1.psl.v1.0.0-high.spfn.upf",
+      "original_sha256": "499945fa754ca2e4417e44454a34d6c29a8bed5b684f5defd5b068058452b8de",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbesol/La.paw.pbesol.z_11.ld1.psl.v1.0.0-high.spfn.upf.in",
+      "generator_input_sha256": "62d74aef2478264905cfb66b0a3c7d67d5535d5aa6b17a26835188bed74f09a7",
+      "z_valence": 11.0,
+      "complete_native_core_available": true
+    },
+    {
+      "element": "Pa",
+      "functional": "pbesol",
+      "file": "data/paw-core/pbesol/Pa.paw.pbesol.z_13.ld1.uni-marburg.v0.upf",
+      "sha256": "d025f54cfd80c1a2ee69815302ada04affe58acf164cdfebd12584dc03140073",
+      "bytes": 3588292,
+      "original_file": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/Pa.paw.pbesol.z_13.ld1.uni-marburg.v0.upf",
+      "original_sha256": "0669eb093d3fafce939015a249646436603bff0e5fa6b9cf09599d33dd3cc685",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbesol/Pa.paw.pbesol.z_13.ld1.uni-marburg.v0.upf.in",
+      "generator_input_sha256": "0fdd2d87e48be64720f08a2e35e2ab43e97443f790c13abf0a3265f72ce001d7",
+      "z_valence": 13.0,
+      "complete_native_core_available": true
+    },
+    {
+      "element": "U",
+      "functional": "pbesol",
+      "file": "data/paw-core/pbesol/U.paw.pbesol.z_14.ld1.uni-marburg.v0.upf",
+      "sha256": "38a8d60bcf411b39f58896f403387ddbb5994c10f6276abcb8b01b065a08d538",
+      "bytes": 3590515,
+      "original_file": "pbesol-eff/mix-sssp-pbesol-eff-lib-v2/library/U.paw.pbesol.z_14.ld1.uni-marburg.v0.upf",
+      "original_sha256": "19073b95aaa962e7633bf3336cedaa8b791ade344e596200b0baf3addeb0594e",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbesol/U.paw.pbesol.z_14.ld1.uni-marburg.v0.upf.in",
+      "generator_input_sha256": "6f05b8657bf28cd2ad907f4adfea64c148b1dd74d0dc12a37095397b380c3ca6",
+      "z_valence": 14.0,
+      "complete_native_core_available": true
+    },
+    {
+      "element": "Pt",
+      "functional": "pbesol",
+      "file": "data/paw-core/pbesol/Pt.paw.pbesol.z_18.ld1.psl.v1.0.0-low.spn.upf",
+      "sha256": "411756c09a38924d42651b346cf531f82633ccbd743bc43e5a209a0f8c111481",
+      "bytes": 2156392,
+      "original_file": "pbesol-prec/mix-sssp-prec-pbesol-lib-v2/library/Pt.paw.pbesol.z_18.ld1.psl.v1.0.0-low.spn.upf",
+      "original_sha256": "1d3ea5d25c9d5c4be6fdc2ffa42f9bd12ef89af546e39af70ae4862d76f40730",
+      "original_physical_sections_byte_identical": true,
+      "only_replaced_section": "PP_GIPAW/PP_GIPAW_CORE_ORBITALS",
+      "core_reference_tolerance": 1e-09,
+      "generator_input": "inputs/paw-core/pbesol/Pt.paw.pbesol.z_18.ld1.psl.v1.0.0-low.spn.upf.in",
+      "generator_input_sha256": "549f318e13d5a8cef06190540651f8c4f815f6ba999f56a71225f9ac8e101657",
+      "z_valence": 18.0,
+      "complete_native_core_available": true
+    }
+  ],
+  "sources": {
+    "sssp": {
+      "version": "2.0",
+      "source_revision": "0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9",
+      "archives": [
+        {
+          "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/010-extract-eff-lib/SSSP-lib-pbe-eff-v2.tar.gz",
+          "archive": "SSSP-lib-pbe-eff-v2.tar.gz",
+          "sha256": "67c59659953f32b87ebf1e7e59b5cdd55bcaca02b518532098c339c0d11193c2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/011-extract-prec-lib/SSSP-lib-pbe-prec-v2.tar.gz",
+          "archive": "SSSP-lib-pbe-prec-v2.tar.gz",
+          "sha256": "74b40b9f4df74df4c4c45da12d80bc2284b85284790628c2ae05fa092dad6286"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/010-extract-eff-lib/SSSP-lib-pbesol-eff-v2.tar.gz",
+          "archive": "SSSP-lib-pbesol-eff-v2.tar.gz",
+          "sha256": "276cf7222e07f324aa24046db8fb83f83d7aff50736f19e6960e26c24a61ae7b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/unkcpz/sssp-verify-scripts/0fb07d89d13407b0f00a0a3b8c21d7e387fb56f9/2-experiments/finalized_scripts/011-extract-prec-lib/SSSP-lib-pbesol-prec-v2.tar.gz",
+          "archive": "SSSP-lib-pbesol-prec-v2.tar.gz",
+          "sha256": "e8ef3382f809be3f5e9ebab7d06e5823e1510048ddd6b369215a9bfa719a4cf9"
+        }
+      ]
+    },
+    "quantum_espresso": {
+      "source_commit": "7d5cebcf1250114756b88c6064ebe82e6f8fd835",
+      "tag": "qe-6.3MaX",
+      "archive": {
+        "url": "https://codeload.github.com/QEF/q-e/tar.gz/7d5cebcf1250114756b88c6064ebe82e6f8fd835",
+        "sha256": "5b23d5eaf024b08ec24d0cd33f4f578c5d4b31ee93fc14c198a1395010abbf5b",
+        "bytes": 86789744
+      }
+    },
+    "exporter_patch": "inputs/paw-core/qe-6.3-core-export.patch",
+    "exporter_patch_sha256": "f6c9cbd67be2f3cf83aa1407ebe415870b3cb1b1bd7af676e7be4b0d0e7d3c14",
+    "generator_binary_sha256": "2c265b6062ebc08d417f1c1f741804422a09cdd9bfa5d3b00fe63b0654eb1959",
+    "exporter_correction": "Select the actual core_state orbitals instead of an orbital-list prefix. Numerical generation and other exported physical arrays are unchanged."
+  },
+  "preparation": {
+    "repository": "https://github.com/DCM-Uni-Paderborn/cp2k",
+    "commit": "4eb521b0bde9980bd2e298389b59f1bf79919eb7",
+    "path": "tools/pseudopotentials/add_upf_paw_core.py",
+    "sha256": "bea0370187adf53802011238232e7b1d38c71def4d84c558aec16daf746407dc",
+    "core_reference_tolerance": 1e-09,
+    "compatibility": "Original mesh, AE core density and shared core reference waves. Regenerated valence potentials are not substituted."
+  },
+  "validation": {
+    "native_core_fields_available": 8,
+    "scope": "Current native reader and AE/auxiliary PS core kinetic-field constructors. Original non-core sections remain byte-identical. No all-element SCF or accuracy claim."
+  }
+}
